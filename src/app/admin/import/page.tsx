@@ -24,47 +24,64 @@ export default function AdminImportPage() {
     setLogs((prev) => [...prev, `[${new Date().toLocaleTimeString()}] ${message}`])
   }
 
-  const handleProcessImport = () => {
+  const handleProcessImport = async () => {
     if (!file) return alert('Silakan pilih file CSV terlebih dahulu!')
 
     setIsProcessing(true)
+    addLog('Mengecek data slug di database untuk mencegah duplikat...')
+
+    // 1. Ambil semua slug yang sudah ada di database
+    const { data: existingData } = await supabase.from('data_keragaan_metrik').select('slug')
+    const existingSlugs = new Set(existingData?.map(d => d.slug) || [])
+
+    // Fungsi pembuat Slug Cerdas (Otomatis tambah -1, -2 jika kembar)
+    const createUniqueSlug = (nama: string) => {
+      let baseSlug = (nama || 'koperasi')
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-') // Ganti spasi/karakter aneh dengan strip
+        .replace(/(^-|-$)+/g, '') // Hapus strip di awal/akhir jika ada
+
+      let slug = baseSlug
+      let counter = 1
+      while (existingSlugs.has(slug)) {
+        slug = `${baseSlug}-${counter}`
+        counter++
+      }
+      existingSlugs.add(slug) // Simpan ke memory agar baris selanjutnya tidak bentrok
+      return slug
+    }
+
     addLog('Memulai pembacaan file CSV...')
 
     Papa.parse(file, {
-      header: true, // Membaca baris pertama sebagai nama kolom
+      header: true,
       skipEmptyLines: true,
       complete: async (results) => {
         const rawRows = results.data
-        addLog(`Berhasil membaca ${rawRows.length} baris data dari file.`);
+        addLog(`Berhasil membaca ${rawRows.length} baris data dari file.`)
         setStats((prev) => ({ ...prev, total: rawRows.length }))
 
-        const batchSize = 50 // Kita proses per 50 baris agar tidak membebani database
+        const batchSize = 50 
         let suksesCount = 0
         let gagalCount = 0
 
-        addLog('Memulai proses sinkronisasi ke database Supabase...')
+        addLog('Memulai proses sinkronisasi ke database...')
 
         for (let i = 0; i < rawRows.length; i += batchSize) {
           const chunk = rawRows.slice(i, i + batchSize)
           
-          // Format data agar sesuai dengan tipe data PostgreSQL (Angka & Tanggal)
           const formattedChunk = chunk.map((row: any) => {
-            
-            // Helper untuk membersihkan angka (menghilangkan spasi/titik jika ada format mata uang)
             const parseNum = (val: any) => {
               if (!val) return 0
               const cleaned = String(val).replace(/[^0-9.-]/g, '')
               return Number(cleaned) || 0
             }
 
-            // Helper format tanggal (YYYY-MM-DD)
-            const parseDate = (val: any) => {
-              if (!val || String(val).includes('1899')) return null
-              return val
-            }
+            const namaKoperasi = row.nmkop || row.nama_koperasi || 'Koperasi'
 
             return {
-              nmkop: row.nmkop || row.nama_koperasi,
+              nmkop: namaKoperasi,
+              slug: createUniqueSlug(namaKoperasi), // <--- PENAMBAHAN SLUG OTOMATIS
               nobh: row.nobh || row.nomor_badan_hukum,
               ang_laki: parseNum(row.ang_laki),
               ang_wanita: parseNum(row.ang_wanita),
@@ -77,20 +94,16 @@ export default function AdminImportPage() {
               volusaha: parseNum(row.volusaha),
               shu: parseNum(row.shu),
               asset: parseNum(row.asset),
-              tglrat: parseDate(row.tglrat),
+              tglrat: (!row.tglrat || String(row.tglrat).includes('1899')) ? null : row.tglrat,
               tahun_laporan: parseNum(row.tahun_laporan) || 2026
             }
           })
 
-          // Tembak ke tabel data_keragaan_metrik di Supabase
-          const { error } = await supabase
-            .from('data_keragaan_metrik')
-            .insert(formattedChunk)
+          const { error } = await supabase.from('data_keragaan_metrik').insert(formattedChunk)
 
           if (error) {
-            console.error('Error insert batch:', error)
             gagalCount += chunk.length
-            addLog(`❌ Gagal memasukkan baris ${i + 1} sampai ${i + chunk.length}: ${error.message}`)
+            addLog(`❌ Gagal baris ${i + 1}: ${error.message}`)
           } else {
             suksesCount += chunk.length
             addLog(`✅ Berhasil memasukkan baris ${i + 1} sampai ${i + chunk.length}`)
@@ -98,83 +111,42 @@ export default function AdminImportPage() {
 
           setStats({ total: rawRows.length, sukses: suksesCount, gagal: gagalCount })
         }
-
         addLog('🎉 Proses import selesai sepenuhnya!')
-        setIsProcessing(false)
-      },
-      error: (error) => {
-        addLog(`❌ Error saat membaca file: ${error.message}`)
         setIsProcessing(false)
       }
     })
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 pb-12">
-      {/* Header */}
+    <div className="min-h-screen bg-gray-50 pb-12 font-sans text-gray-900">
       <div className="bg-white border-b border-gray-200 py-4 px-6 mb-8 shadow-sm">
         <div className="max-w-4xl mx-auto flex justify-between items-center">
           <div>
-            <button onClick={() => router.push('/admin/dashboard')} className="text-sm text-indigo-600 hover:underline mb-1 block">
-              &larr; Kembali ke Dashboard
-            </button>
+            <button onClick={() => router.push('/admin/dashboard')} className="text-sm font-bold text-indigo-700 hover:underline mb-1 block">&larr; Kembali ke Dashboard</button>
             <h1 className="text-2xl font-bold text-gray-900">Sistem Import Massal CSV</h1>
-            <p className="text-sm text-gray-500">Unggah file CSV hasil konversi Excel untuk sinkronisasi otomatis.</p>
           </div>
         </div>
       </div>
-
       <div className="max-w-4xl mx-auto px-4 space-y-6">
-        {/* Panel Upload */}
         <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
           <h2 className="text-lg font-bold text-gray-900 mb-4">Pilih Berkas CSV</h2>
-          
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <input
-              type="file"
-              accept=".csv"
-              disabled={isProcessing}
-              onChange={handleFileChange}
-              className="w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-indigo-50 file:text-indigo-700 hover:file:bg-indigo-100 disabled:opacity-50"
-            />
-            <button
-              onClick={handleProcessImport}
-              disabled={isProcessing || !file}
-              className="w-full sm:w-auto px-6 py-2 bg-indigo-600 text-white font-semibold rounded-md shadow hover:bg-indigo-700 disabled:bg-gray-300 transition-colors whitespace-nowrap"
-            >
-              {isProcessing ? 'Memproses Data...' : 'Mulai Import Massal'}
+            <input type="file" accept=".csv" disabled={isProcessing} onChange={handleFileChange} className="w-full text-sm text-gray-800 border border-gray-300 p-2 rounded" />
+            <button onClick={handleProcessImport} disabled={isProcessing || !file} className="px-6 py-2 bg-indigo-600 text-white font-bold rounded shadow hover:bg-indigo-700 disabled:bg-gray-400 whitespace-nowrap">
+              {isProcessing ? 'Memproses...' : 'Mulai Import'}
             </button>
           </div>
-
-          {/* Kartu Statistik */}
           {stats.total > 0 && (
             <div className="grid grid-cols-3 gap-4 mt-6 pt-6 border-t border-gray-100 text-center">
-              <div className="bg-gray-50 p-3 rounded-lg border border-gray-100">
-                <p className="text-xs font-medium text-gray-500 uppercase">Total Baris</p>
-                <p className="text-xl font-bold text-gray-900">{stats.total}</p>
-              </div>
-              <div className="bg-green-50 p-3 rounded-lg border border-green-100">
-                <p className="text-xs font-medium text-green-700 uppercase">Sukses</p>
-                <p className="text-xl font-bold text-green-700">{stats.sukses}</p>
-              </div>
-              <div className="bg-red-50 p-3 rounded-lg border border-red-100">
-                <p className="text-xs font-medium text-red-700 uppercase">Gagal</p>
-                <p className="text-xl font-bold text-red-700">{stats.gagal}</p>
-              </div>
+              <div className="bg-gray-50 p-3 rounded-lg border border-gray-200"><p className="text-xs font-bold text-gray-700">Total Baris</p><p className="text-xl font-bold text-gray-900">{stats.total}</p></div>
+              <div className="bg-green-50 p-3 rounded-lg border border-green-200"><p className="text-xs font-bold text-green-700">Sukses</p><p className="text-xl font-bold text-green-700">{stats.sukses}</p></div>
+              <div className="bg-red-50 p-3 rounded-lg border border-red-200"><p className="text-xs font-bold text-red-700">Gagal</p><p className="text-xl font-bold text-red-700">{stats.gagal}</p></div>
             </div>
           )}
         </div>
-
-        {/* Kotak Log Monitor */}
         <div className="bg-gray-900 rounded-xl p-6 shadow-inner border border-gray-800 text-white font-mono text-xs space-y-2 h-80 overflow-y-auto">
-          <p className="text-gray-500">// Konsol Monitor Proses Sinkronisasi</p>
-          {logs.length === 0 ? (
-            <p className="text-gray-400 italic">Belum ada aktivitas. Silakan pilih file dan jalankan import.</p>
-          ) : (
-            logs.map((log, index) => (
-              <p key={index} className="leading-relaxed whitespace-pre-wrap">{log}</p>
-            ))
-          )}
+          <p className="text-gray-400">// Konsol Monitor Proses Sinkronisasi</p>
+          {logs.map((log, index) => <p key={index}>{log}</p>)}
         </div>
       </div>
     </div>

@@ -6,197 +6,200 @@ import { supabase } from '@/utils/supabase'
 
 export default function KesehatanKoperasi() {
   const router = useRouter()
-  const [koperasiId, setKoperasiId] = useState<string | null>(null)
+  const [profil, setProfil] = useState<any>(null)
   const [dokumenList, setDokumenList] = useState<any[]>([])
-  const [metrikData, setMetrikData] = useState<any>(null)
+  const [statusUmum, setStatusUmum] = useState('merah')
   
-  const [metodeInput, setMetodeInput] = useState<'upload' | 'manual'>('upload')
-  const [jenisDokumen, setJenisDokumen] = useState('lembar_kerja')
+  // State untuk Upload
   const [file, setFile] = useState<File | null>(null)
-  const [teksManual, setTeksManual] = useState('')
+  const [jenisDokumen, setJenisDokumen] = useState('lembar_kerja_ods')
+  const [tanggalInput, setTanggalInput] = useState(new Date().toISOString().split('T')[0])
   const [isUploading, setIsUploading] = useState(false)
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     checkUserAndFetchData()
   }, [])
 
   const checkUserAndFetchData = async () => {
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) { router.push('/login'); return; }
+    try {
+      const { data: { user } } = await supabase.auth.getUser()
+      if (!user) { router.push('/login'); return; }
 
-    const { data: profil } = await supabase.from('profil_koperasi').select('*').eq('user_id', user.id).single()
+      const { data: pData } = await supabase.from('profil_koperasi').select('*').eq('user_id', user.id).single()
 
-    if (profil) {
-      setKoperasiId(profil.id)
-      fetchDokumen(profil.id)
-      
-      // Ambil data Keuangan dari import CSV
-      if (profil.nomor_badan_hukum) {
-        const { data: metrik } = await supabase.from('data_keragaan_metrik').select('*').eq('nobh', profil.nomor_badan_hukum).single()
-        if (metrik) setMetrikData(metrik)
+      if (pData) {
+        setProfil(pData)
+        fetchDokumen(pData.id)
       }
+    } catch (err) {
+      console.error("Gagal memuat data:", err)
+    } finally {
+      setLoading(false)
     }
   }
 
   const fetchDokumen = async (id: string) => {
-    const { data } = await supabase.from('dokumen_kesehatan').select('*').eq('koperasi_id', id).order('uploaded_at', { ascending: false })
-    if (data) setDokumenList(data)
-  }
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    if (!koperasiId) return
-
-    try {
-      setIsUploading(true)
-      let finalFilePath = 'input-manual' 
-      let finalDataOds = null
-
-      if (metodeInput === 'upload') {
-        if (!file) return alert('Pilih file terlebih dahulu!')
-        const fileExt = file.name.split('.').pop()
-        const fileName = `${koperasiId}-kes-${Date.now()}.${fileExt}`
-        const storagePath = `kesehatan/${fileName}`
-
-        const { error: uploadError } = await supabase.storage.from('berkas_sireko').upload(storagePath, file)
-        if (uploadError) throw uploadError
-
-        const { data: publicUrlData } = supabase.storage.from('berkas_sireko').getPublicUrl(storagePath)
-        finalFilePath = publicUrlData.publicUrl
+    const { data, error } = await supabase.from('dokumen_kesehatan').select('*').eq('koperasi_id', id).order('uploaded_at', { ascending: false })
+    if (error) {
+      console.error("Gagal ambil dokumen:", error)
+      return
+    }
+    
+    if (data) {
+      setDokumenList(data)
+      
+      // Kalkulasi Status Kesehatan Umum
+      if (data.length === 0) {
+        setStatusUmum('merah')
       } else {
-        if (!teksManual.trim()) return alert('Teks input manual tidak boleh kosong!')
-        finalDataOds = { konten_manual: teksManual }
+        const statuses = data.map(d => d.status_indikator)
+        if (statuses.includes('merah')) setStatusUmum('merah')
+        else if (statuses.includes('biru')) setStatusUmum('biru')
+        else setStatusUmum('hijau')
       }
-
-      const { error: dbError } = await supabase.from('dokumen_kesehatan').insert({
-          koperasi_id: koperasiId, jenis_dokumen: jenisDokumen, file_path: finalFilePath, data_ods: finalDataOds, status_indikator: 'merah'
-      })
-      if (dbError) throw dbError
-
-      alert('Berhasil menyimpan data kesehatan!')
-      setFile(null); setTeksManual('')
-      fetchDokumen(koperasiId)
-    } catch (error: any) {
-      alert('Gagal menyimpan: ' + error.message)
-    } finally {
-      setIsUploading(false)
     }
   }
 
-  const formatRp = (angka: number) => new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', minimumFractionDigits: 0 }).format(angka || 0)
+  const handleUpload = async (e: React.FormEvent) => {
+    e.preventDefault()
+    if (!file || !profil) {
+      alert("Pilih file PDF terlebih dahulu!")
+      return
+    }
+    
+    setIsUploading(true)
 
-  const renderBadge = (status: string) => {
-    const colors: any = { merah: 'bg-red-100 text-red-800', biru: 'bg-blue-100 text-blue-800', hijau: 'bg-green-100 text-green-800' }
-    return <span className={`px-2 py-1 rounded text-xs font-bold capitalize ${colors[status]}`}>{status}</span>
+    try {
+      // 1. Upload File ke Storage
+      const fileName = `${profil.id}/${jenisDokumen}-${Date.now()}.pdf`
+      const { error: uploadError } = await supabase.storage.from('berkas_sireko').upload(`kesehatan/${fileName}`, file)
+      
+      if (uploadError) {
+        console.error("Error Storage:", uploadError)
+        throw new Error("Gagal upload file ke storage. Pastikan file berformat PDF.")
+      }
+      
+      // 2. Dapatkan URL Public
+      const { data: publicUrlData } = supabase.storage.from('berkas_sireko').getPublicUrl(`kesehatan/${fileName}`)
+      
+      // 3. Masukkan ke Database dengan jenis dokumen spesifik
+      const { error: dbError } = await supabase.from('dokumen_kesehatan').insert({ 
+        koperasi_id: profil.id, 
+        jenis_dokumen: jenisDokumen, 
+        tanggal_input: tanggalInput,
+        file_path: publicUrlData.publicUrl, 
+        status_indikator: 'merah' 
+      })
+
+      if (dbError) throw new Error("Gagal menyimpan data ke database: " + dbError.message)
+
+      alert('Dokumen Kesehatan berhasil diunggah!')
+      setFile(null)
+      fetchDokumen(profil.id)
+    } catch (error: any) { 
+      console.error("CRITICAL ERROR:", error)
+      alert(error.message) 
+    } finally { 
+      setIsUploading(false) 
+    }
   }
 
+  const renderBadge = (status: string) => {
+    const colors: any = { 
+      merah: 'bg-red-100 text-red-800 border-red-200', 
+      biru: 'bg-blue-100 text-blue-800 border-blue-200', 
+      hijau: 'bg-green-100 text-green-800 border-green-200' 
+    }
+    const labels: any = { merah: 'Belum Diperiksa', biru: 'Sedang Diproses', hijau: 'Terverifikasi' }
+    return <span className={`px-3 py-1 rounded-full text-xs font-bold border uppercase ${colors[status] || colors.merah}`}>{labels[status] || status}</span>
+  }
+
+  const getFormatName = (kode: string) => {
+    const formatNames: any = {
+      lembar_kerja_ods: 'Lembar Kerja ODS',
+      surat_pernyataan: 'Surat Pernyataan Kepatuhan',
+      verifikasi_mandiri: 'Verifikasi Mandiri'
+    }
+    return formatNames[kode] || kode.replace('_', ' ')
+  }
+
+  if (loading) return <div className="min-h-screen bg-white p-8 text-center text-slate-900 font-bold">Memuat...</div>
+
   return (
-    <div className="min-h-screen bg-gray-50 pb-12">
-      <div className="bg-white border-b border-gray-200 py-4 px-6 mb-8 shadow-sm">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <h1 className="text-xl font-bold text-gray-900">Modul Kesehatan Koperasi</h1>
-          <button onClick={() => router.push('/koperasi/dashboard')} className="text-sm text-indigo-600 font-semibold hover:underline">
-            Kembali ke Dashboard
-          </button>
+    <div className="min-h-screen bg-white pb-12 font-sans antialiased text-slate-900">
+      {/* HEADER NAVBAR */}
+      <div className="bg-white border-b border-slate-200 py-4 px-6 mb-8 shadow-sm">
+        <div className="max-w-4xl mx-auto flex justify-between items-center">
+          <h1 className="text-xl font-bold text-slate-900">Modul Kesehatan Koperasi</h1>
+          <button onClick={() => router.push('/koperasi/dashboard')} className="text-sm font-semibold text-indigo-700 hover:underline">Kembali</button>
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-
-        {/* DATA KEUANGAN DARI EXCEL */}
-        {metrikData && (
-          <div className="bg-green-50 border border-green-100 p-6 rounded-xl shadow-sm flex flex-col md:flex-row justify-between items-center gap-6">
-            <div>
-              <h2 className="text-lg font-bold text-green-900">Profil Keuangan Koperasi Anda</h2>
-              <p className="text-sm text-green-700">Data acuan untuk evaluasi ODS yang ditarik dari sinkronisasi CSV Dinas.</p>
-            </div>
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 text-center w-full md:w-auto">
-              <div className="bg-white py-2 px-3 rounded shadow-sm">
-                <p className="text-xs text-gray-500 font-bold uppercase">Modal Sendiri</p>
-                <p className="text-sm font-bold text-green-900">{formatRp(metrikData.modalsendiri)}</p>
-              </div>
-              <div className="bg-white py-2 px-3 rounded shadow-sm">
-                <p className="text-xs text-gray-500 font-bold uppercase">Modal Luar</p>
-                <p className="text-sm font-bold text-green-900">{formatRp(metrikData.modalluar)}</p>
-              </div>
-              <div className="bg-white py-2 px-3 rounded shadow-sm">
-                <p className="text-xs text-gray-500 font-bold uppercase">Volume Usaha</p>
-                <p className="text-sm font-bold text-green-900">{formatRp(metrikData.volusaha)}</p>
-              </div>
-              <div className="bg-white py-2 px-3 rounded shadow-sm border-b-2 border-b-green-500">
-                <p className="text-xs text-gray-500 font-bold uppercase">SHU</p>
-                <p className="text-sm font-bold text-green-900">{formatRp(metrikData.shu)}</p>
-              </div>
-            </div>
-          </div>
-        )}
+      <div className="max-w-4xl mx-auto px-4 space-y-8">
         
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          <div className="lg:col-span-1 bg-white p-6 rounded-xl shadow-sm border border-gray-200 h-fit">
-            <h2 className="text-lg font-bold text-gray-900 mb-4">Input Dokumen Kesehatan</h2>
-            <div className="flex bg-gray-100 rounded-lg p-1 mb-6">
-              <button onClick={() => setMetodeInput('upload')} className={`flex-1 text-sm font-medium py-1.5 rounded-md ${metodeInput === 'upload' ? 'bg-white shadow-sm text-indigo-700' : 'text-gray-500'}`}>Unggah File</button>
-              <button onClick={() => setMetodeInput('manual')} className={`flex-1 text-sm font-medium py-1.5 rounded-md ${metodeInput === 'manual' ? 'bg-white shadow-sm text-indigo-700' : 'text-gray-500'}`}>Ketik Manual</button>
-            </div>
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Kategori Dokumen</label>
-                <select value={jenisDokumen} onChange={(e) => setJenisDokumen(e.target.value)} className="w-full rounded-md border border-gray-300 p-2 text-sm focus:border-indigo-500">
-                  <option value="lembar_kerja">Lembar Kerja (ODS)</option>
-                  <option value="pernyataan_kesehatan">Surat Pernyataan Kesehatan</option>
-                  <option value="verifikasi_kesehatan">Surat Verifikasi Kesehatan</option>
-                </select>
-              </div>
-              {metodeInput === 'upload' ? (
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">Pilih File</label>
-                  <input type="file" accept=".pdf,.xls,.xlsx,.ods" onChange={(e) => setFile(e.target.files?.[0] || null)} className="w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-md file:bg-indigo-50 file:text-indigo-700" />
-                </div>
-              ) : (
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">Ketik Isi Laporan</label>
-                  <textarea rows={5} value={teksManual} onChange={(e) => setTeksManual(e.target.value)} placeholder="Ketik data lembar kerja..." className="w-full rounded-md border border-gray-300 p-2 text-sm focus:border-indigo-500" />
-                </div>
-              )}
-              <button type="submit" disabled={isUploading || !koperasiId} className="w-full py-2 px-4 rounded-md text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 disabled:bg-indigo-300">
-                {isUploading ? 'Menyimpan...' : 'Simpan Data'}
-              </button>
-            </form>
+        {/* 1. PANEL STATUS KESEHATAN UMUM */}
+        <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div>
+            <h2 className="text-sm font-bold text-slate-500 uppercase tracking-wider mb-1">Status Kesehatan Keseluruhan</h2>
+            <p className="text-sm text-slate-700 font-medium">Ini adalah status gabungan dari semua dokumen kesehatan yang Anda unggah.</p>
           </div>
+          <div className="flex-shrink-0">
+            {statusUmum === 'merah' && <span className="px-4 py-2 bg-red-100 text-red-800 border border-red-200 rounded-lg font-bold shadow-sm">BUTUH PERHATIAN (MERAH)</span>}
+            {statusUmum === 'biru' && <span className="px-4 py-2 bg-blue-100 text-blue-800 border border-blue-200 rounded-lg font-bold shadow-sm">DALAM PROSES (BIRU)</span>}
+            {statusUmum === 'hijau' && <span className="px-4 py-2 bg-green-100 text-green-800 border border-green-200 rounded-lg font-bold shadow-sm">SEHAT / TERVERIFIKASI (HIJAU)</span>}
+          </div>
+        </div>
 
-          <div className="lg:col-span-2 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
-            <h2 className="text-lg font-bold text-gray-900 mb-4">Riwayat Berkas Kesehatan</h2>
-            {dokumenList.length === 0 ? <p className="text-sm text-gray-500 italic py-8 text-center">Belum ada data yang diunggah.</p> : (
-              <div className="overflow-x-auto">
-                <table className="min-w-full divide-y divide-gray-200">
-                  <thead>
-                    <tr>
-                      <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Jenis</th>
-                      <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Input</th>
-                      <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Status</th>
-                      <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Aksi</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-gray-200">
-                    {dokumenList.map((doc) => (
-                      <tr key={doc.id}>
-                        <td className="px-4 py-3 text-sm text-gray-900 capitalize">{doc.jenis_dokumen.replace('_', ' ')}</td>
-                        <td className="px-4 py-3 text-sm text-gray-500">{doc.file_path === 'input-manual' ? 'Ketik Manual' : 'File Unggahan'}</td>
-                        <td className="px-4 py-3">{renderBadge(doc.status_indikator)}</td>
-                        <td className="px-4 py-3 text-sm">
-                          {doc.file_path === 'input-manual' ? (
-                            <button onClick={() => alert('Isi Data: \n\n' + doc.data_ods?.konten_manual)} className="text-indigo-600 font-semibold hover:underline">Baca Teks</button>
-                          ) : (
-                            <a href={doc.file_path} target="_blank" rel="noreferrer" className="text-indigo-600 font-semibold hover:underline">Unduh File</a>
-                          )}
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            )}
-          </div>
+        {/* 2. FORM UPLOAD 3 JENIS DOKUMEN */}
+        <div className="bg-slate-50 p-6 rounded-xl shadow-sm border border-slate-200">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">Unggah Dokumen Kesehatan (.pdf)</h2>
+            <p className="text-sm text-slate-600 mb-5 font-medium">Lengkapi 3 dokumen wajib di bawah ini untuk memulai proses verifikasi kesehatan.</p>
+            
+            <form onSubmit={handleUpload} className="grid grid-cols-1 md:grid-cols-3 gap-4 items-end">
+                <div>
+                  <label className="block text-sm font-bold text-slate-700 mb-1">Jenis Dokumen:</label>
+                  <select value={jenisDokumen} onChange={(e) => setJenisDokumen(e.target.value)} className="w-full rounded-md border border-slate-300 p-2.5 bg-white text-slate-900 font-bold shadow-sm focus:border-indigo-500">
+                      <option value="lembar_kerja_ods">Lembar Kerja ODS</option>
+                      <option value="surat_pernyataan">Surat Pernyataan Kepatuhan</option>
+                      <option value="verifikasi_mandiri">Verifikasi Mandiri</option>
+                  </select>
+                </div>
+                <div>
+                  <label className="block text-sm font-bold text-slate-700 mb-1">Tanggal Input:</label>
+                  <input type="date" value={tanggalInput} max={new Date().toISOString().split('T')[0]} onChange={(e) => setTanggalInput(e.target.value)} className="w-full rounded-md border border-slate-300 p-2 bg-white text-slate-900 font-medium shadow-sm focus:border-indigo-500" />
+                </div>
+                <div>
+                  <label className="block text-sm font-bold text-slate-700 mb-1">Pilih File PDF:</label>
+                  <input type="file" accept=".pdf" onChange={(e) => setFile(e.target.files?.[0] || null)} className="w-full text-sm text-slate-800 p-1.5 border border-slate-300 rounded bg-white shadow-sm" />
+                </div>
+                <div className="md:col-span-3 mt-2">
+                  <button type="submit" disabled={isUploading || !file} className="w-full sm:w-auto px-8 py-2.5 bg-indigo-600 text-white font-bold rounded shadow-md hover:bg-indigo-700 disabled:bg-slate-400 transition-colors">
+                    {isUploading ? "Mengunggah..." : "Upload Dokumen"}
+                  </button>
+                </div>
+            </form>
+        </div>
+
+        {/* 3. RIWAYAT DOKUMEN KESEHATAN */}
+        <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
+          <h2 className="text-md font-bold text-slate-800 uppercase mb-4 tracking-wider">Riwayat Unggah Terakhir</h2>
+          {dokumenList.length === 0 ? <p className="text-sm text-slate-500 italic font-medium py-4 text-center">Belum ada dokumen kesehatan yang diunggah.</p> : (
+            <div className="space-y-3">
+              {dokumenList.map((doc: any) => (
+                <div key={doc.id} className="flex flex-col sm:flex-row sm:justify-between sm:items-center p-4 border border-slate-200 rounded-lg bg-slate-50 hover:border-indigo-200 transition-colors gap-4">
+                  <div>
+                    <p className="font-bold text-slate-900 capitalize text-md">{getFormatName(doc.jenis_dokumen)}</p>
+                    <p className="text-xs font-medium text-slate-600 mt-1">Tanggal Input: <span className="font-bold text-slate-800">{new Date(doc.tanggal_input).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' })}</span></p>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    {renderBadge(doc.status_indikator)}
+                    <a href={doc.file_path} target="_blank" className="text-indigo-600 font-bold text-sm hover:underline border-l border-slate-300 pl-4">Lihat Berkas</a>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </div>
