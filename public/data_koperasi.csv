@@ -1,0 +1,427 @@
+﻿idkop;nmkop;kelurahan;kecamatan;nobh;tglbh;aktif;tdkaktif;Anggt;rat;tglrat;Krywn;Mngr;modalsendiri;modalluar;volusaha;shu;asset
+ 1 ; KUD. Tirtha Luhur ; Kel.Banyuning ; Buleleng ; 91/BH/PAD/KWK 22/III/1996 ;25/03/1996; 1 ; - ; 3.350 ; 1 ;06/02/2026; 7 ; 1 ; 2.286.364.874 ; 872.677.158 ; 1.898.307.250 ; 34.612.032 ; 3.159.042.032 
+ 2 ; KUD. Amreta Bhuana Sakti ; Desa Panji ; Sukasada ; 97/BH/PAD/KWK 22/III/1996 ;25/03/1996; 1 ; - ; 1.632 ; 1 ;22/04/2026; 5 ; 1 ; 788.391.982 ; 603.159.102 ; 763.928.700 ; 28.638.058 ; 1.391.551.084 
+ 3 ; KUD. Sari Pertiwi ; Desa Dencarik ; Banjar ; 95/BH/PAD/KWK 22/III/1996 ;25/03/1996; 1 ; - ; 2.213 ; 1 ;20/02/2026; 7 ; 1 ; 3.302.623.818 ; 1.378.135.891 ; 3.034.172.750 ; 74.331.403 ; 4.680.759.709 
+ 4 ; KUD. Nusa Partha ; Desa Kekeran ; Busungbiu ; 94/BH/PAD/KWK 22/III/96 ;25/03/1996; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 5 ; KUD. Banyu Amertha ; Desa Kayu putih ; Banjar ; 86/BH/PAD/KWK 22/III/96 ;25/03/1996; 1 ; - ; 1.292 ; 1 ;11/02/2026; 5 ; - ; 1.496.138.462 ; 187.945.122 ; 187.064.000 ; 30.155.000 ; 1.684.083.584 
+ 6 ; KUD. Seririt ; Desa Umeanyar ; Seririt ; 98/BH/PAD/KWK 22/III/1996 ;25/03/1996; 1 ; - ; 501 ; 1 ;11/02/2026; 8 ; 1 ; 1.793.848.580 ; 580.657.862 ; 1.173.650.000 ; 43.165.707 ; 2.374.506.442 
+ 7 ; KUD. Dharma Perkasa ; Desa Bungkulan ; Sawan ; 87/BH/PAD/KWK 22/III/1996 ;25/03/1996; - ; 1 ; 99 ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 8 ; KUD. Karma Bumi Amertha ; Kubutambahan ; Kubutambahan ; 88/BH/PAD/KWK 22/III/1996 ;25/03/1996; 1 ; - ; 2.968 ; - ;30/06/2018; 19 ; - ; 2.308.681.690 ; 2.677.424.982 ; 159.442.872 ; 4.774.376 ; 4.986.106.672 
+ 9 ; KUD. Dharma Prawerti ; Desa Tejakula ; Tejakula ; 92/BH/PAD/KWK 22/III/1996 ;25/03/1996; 1 ; - ; 2.356 ; 1 ;30/01/2026; 10 ; 2 ; 3.925.438.693 ; 1.671.743.705 ; 2.685.756.628 ; 54.685.748 ; 5.597.182.398 
+ 10 ; KUD. Swakarsa ; Desa Gerokgak ; Gerokgak ; 90/BH/PAD/KWK 22/III/1996 ;25/03/1996; 1 ; - ; 520 ; 1 ;26/02/2026; 6 ; 1 ; 1.186.428.020 ; 937.794.978 ; 1.292.913.950 ; 22.637.739 ; 2.124.222.998 
+ 11 ; KUD. Dapdap Putih ; Desa Tista ; Busungbiu ; 93/BH/PAD/KWK 22/III/1996 ;25/03/1996; 1 ; - ; 954 ; 1 ;17/04/2026; 4 ; 1 ; 725.953.617 ; 909.077.761 ; 485.467.749 ; (11.845.222); 1.635.031.378 
+ 12 ; KUD. Kerti Jaya Banyupoh ; Banyupoh ; Gerokgak ; 89/BH/PAD/KWK 22/III/1996 ;25/03/1996; 1 ; - ; 1.904 ; - ;29/03/2018; - ; - ; - ; - ; - ; - ; - 
+ 13 ; KUD. Swadaya ; Sukasada ; Sukasada ; 96/BH/PAD/KWK 22/III/1996 ;25/03/1996; 1 ; - ; 77 ; 1 ;23/01/2026; 3 ; - ; 1.395.765.296 ; 291.838.664 ; 895.700.300 ; 65.104.716 ; 1.687.603.960 
+ 14 ; KSU. Tabungan Nasional ; Kel. Kaliuntu ; Buleleng ; 05/PAD/BH/VIII/XI/1995 ;02/11/1995; 1 ; - ; 660 ; 1 ;08/03/2026; 8 ; 1 ; 2.571.118.550 ; 2.350.800.310 ; 2.688.167.428 ; 34.541.377 ; 4.921.918.860 
+ 15 ; KSU. Sudhamala ; Kel. Banyuasri ; Buleleng ; 182/BH/PAD/KWK 22/III/96 ;26/03/1996; 1 ; - ; 93 ; 1 ;07/03/2026; 1 ; - ; 536.276.918 ; 69.867.911 ; 384.350.000 ; 10.057.170 ; 606.144.829 
+ 16 ; KSU. Dharma Artha ; Desa Jinengdalem ; Buleleng ; 272/BH/PAD/KWK 22/III/1996 ;27/03/1996; 1 ; - ; 707 ; 1 ;07/03/2026; 5 ; 1 ; 1.069.699.074 ; 12.366.992.447 ; 6.031.197.000 ; 130.096.050 ; 13.436.691.521 
+ 17 ; KSU. Johor ; Desa Panji ; Sukasada ; 53/BH/PAD/KWK 22/III/1997 ;26/03/1997; 1 ; - ; 149 ; 1 ;21/02/2026; 2 ; - ; 475.115.689 ; 388.444.886 ; 366.564.500 ; 17.032.752 ; 863.560.575 
+ 18 ; KSU. Fajar ; Desa Bubunan ; Seririt ; 21/BH/PAD/KWK 22/II/1997 ;04/02/1997; 1 ; - ; 168 ; - ;28/2/2021; 1 ; - ; 91.593.884 ; 51.942.176 ; 2.500.000 ; 2.000.000 ; 143.536.060 
+ 19 ; KSU. Eka Cita ; Desa Telaga ; Busungbiu ; 69/BH/PAD/KWK 22/III/1997 ;29/03/1997; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 20 ; KSU. BMT Setia Utama ; Kampung bugis ; Buleleng ; 22/BH/KDK.22.1/XII/1998 ;22/12/1998; 1 ; - ; 102 ; 1 ;07/02/2026; 2 ; - ; 908.515.750 ; 4.039.002.486 ; 718.425.819 ; 27.258.316 ; 4.947.518.236 
+ 21 ; KSU. Satya Karya ; Desa Ambengan ; Sukasada ; 04/BH/KDK 22.1/III/1999 ;14/03/1999; 1 ; - ; 89 ; 1 ;24/01/2026; 9 ; 1 ; 1.149.695.476 ; 6.901.729.465 ; 5.027.581.370 ; 84.160.000 ; 8.051.424.941 
+ 22 ; KSU. Karya Mandiri        ; Kel Bhaktiseraga ; Buleleng ; 16/BH/KDK/22.1/IX/1999 ;29/09/1999; 1 ; - ; 75 ; 1 ;11/03/2026; 15 ; 2 ; 1.817.970.194 ; 1.072.396.145 ; 2.830.981.912 ; 97.295.200 ; 2.890.366.339 
+ 23 ; KSU. Pudak Saba ; Patemon ; Seririt ; 17/BH/KDK/22.1/IX/1999 ;29/09/1999; 1 ; - ; 91 ; 1 ;31/03/2026; 9 ; 1 ; 1.276.609.948 ; 10.969.106.163 ; 9.257.516.058 ; 89.850.000 ; 12.245.716.111 
+ 24 ; KSU. Sari Sedana ; Sinabun ; Sawan ; 04/BH/Diskop/II/2004 ;25/02/2004; 1 ; - ; 311 ; 1 ;08/03/2026; 4 ; 1 ; 483.963.340 ; 5.094.472.459 ; 3.950.399.741 ; 15.366.740 ; 5.578.435.799 
+ 25 ; KSU. Yoga Sadhana Prasada ; Desa Unggahan ; Seririt ; 10/BH/Diskop/V/2004 ;18/05/2004; 1 ; - ;; 1 ;24/01/2026; 2 ; - ; 1.959.838.248 ; 3.911.948.994 ; 4.262.800.000 ; 199.263.049 ; 5.871.787.242 
+ 26 ; KSU. Widya Mandiri ; Kel. Banyuasri ; Buleleng ; 13/BH/Diskop/VII/2004 ;19/07/2004; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 27 ; KSU. Abdi Dharma ; Desa Tukadmungga ; Buleleng ; 08/BH/Diskop/X/2003 ;03/10/2003; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 28 ; KSU. Dana Asti ; Desa Anturan ; Buleleng ; 01/BH/PAD/Diskop/I/2003 ;27/01/2003; 1 ; - ; 482 ; 1 ;17/01/2026; 17 ; 1 ; 1.215.738.906 ; 3.055.482.795 ; 933.774.383 ; 29.087.026 ; 4.271.221.701 
+ 29 ; KSU. Mitra Jaya ; Kel. Penarukan ; Buleleng ; 05/BH/KDK 22.1/X/2000 ;06/10/2000; 1 ; - ; 32 ; - ;20/2/2021; 4 ; - ; 184.318.372 ; 826.082.937 ; 19.000.000 ; 127.392 ; 1.010.401.309 
+ 30 ; KSU. Pucak Manik Merta ; Desa Sepang ; Busungbiu ; 06/BH/Diskop/X/2000 ;09/10/2000; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 31 ; KSU. Tunas Muda ; Desa Gitgit ; Sukasada ; 08/BH/KDK 22. 1/XII/2000 ;04/12/2000; 1 ; - ; 116 ; - ;15/2/2021; 2 ; - ; 395.490.472 ; 147.036.920 ; 509.424.170 ; 14.674.925 ; 542.527.392 
+ 32 ; KSU. Putra Abadi ; Seririt ; Seririt ; 09/BH/KDK 22.1/XII/2000 ;12/12/2000; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 33 ; KSU. Sari Mertha Utama ; Kel. Bjr Jawa ; Buleleng ; 02/BH/Diskop/IV/2002 ;05/04/2002; 1 ; - ; 33 ; 1 ;24/04/2026; 6 ; - ; 233.720.249 ; 1.140.557.827 ; 1.168.192.200 ; 11.000.151 ; 1.374.278.076 
+ 34 ; KSU. Tri Dwi Eka  ; Kel Penarukan ; Buleleng ; 20/BH/Diskop/XI/2004 ;10/11/2004; 1 ; - ; 453 ; 1 ;14/02/2026; 6 ; 1 ; 675.847.750 ; 1.295.930.917 ; 1.476.696.417 ; 17.711.138 ; 1.971.778.667 
+ 35 ; KSU. Wana Agung ; Desa Sumberklampok ; Gerokgak ; 15/BH/Diskop/XII/2002 ;11/12/2002; 1 ; - ; 260 ; - ;01/08/2019; 3 ; - ; 418.354.806 ; 342.019.262 ; 250.000.000 ; 7.687.372 ; 760.374.068 
+ 36 ; KSU. Bhakti Pertiwi ; Desa Pancasari ; Sukasada ; 16/BH/Diskop/XII/2002 ;11/12/2002; 1 ; - ; 269 ; 1 ;02/03/2026; 4 ; 1 ; 1.679.599.582 ; 1.786.832.960 ; 2.392.558.500 ; 73.161.288 ; 3.466.432.542 
+ 37 ; KSU. Juru Amerta  ; Kel. Kaliuntu ; Buleleng ; 17/BH/Diskop/XII/2002 ;11/12/2002; 1 ; - ; 41 ; - ;07/02/2021; 4 ; - ; 151.852.793 ; 534.003.872 ; 234.274.000 ; 1.561.486 ; 685.856.665 
+ 38 ; KSU. Prima Dana Pasar ; Kel. Banyuasri ; Buleleng ; 26/BH/Diskop/XII/2004 ;20/12/2004; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 39 ; KSU. Adintara Kerti ; Desa Sangsit ; Buleleng ; 14/BH/Diskop/VIII/2004 ;16/08/2004; 1 ; - ; 33 ; - ;28/03/2018; 14 ; - ; 1.666.972.782 ; 129.702.638 ; 1.403.681.000 ; 16.253.111 ; 1.796.675.420 
+ 40 ; KSU. Nirmala Tirta ; Desa Banjar ; Banjar ; 05/BH/PAD/Diskop/VII/2003 ;17/07/2003; 1 ; - ; 230 ; 1 ;10/03/2026; 4 ; 1 ; 360.733.046 ; 339.002.959 ; 595.828.893 ; 4.646.031 ; 699.736.005 
+ 41 ; KSU. Cipta Sejahtera ; Desa Anturan ; Buleleng ; 04/BH/Disperindagkop/V/2005 ;25/05/2005; 1 ; - ; 177 ; 1 ;27/02/2026; 4 ; - ; 1.393.456.203 ; 1.520.332.789 ; 1.550.669.732 ; 105.283.450 ; 2.913.788.992 
+ 42 ; KSU. Laksana Jati ; Desa Pemaron ; Buleleng ; 05/BH/Disperindagkop/V/2005 ;25/05/2005; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 43 ; KSU. Anyar Sari ; Desa Sembiran ; Tejakula ; 09/BH/Disperindagkop/VII/2005 ;04/07/2005; 1 ; - ; 258 ; 1 ;21/02/2026; 2 ; - ; 1.530.754.479 ; 12.972.620.867 ; 7.641.583.551 ; 121.990.061 ; 14.503.375.346 
+ 44 ; KSU. Anugrah Sari ; Desa Temukus ; Banjar ; 12/BH/Disperindagkop/VII/2005 ;20/07/2005; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 45 ; KSU. Bina Pertiwi ; Desa Madenan ; Tejakula ; 13/BH/Disperindagkop/VIII/2005 ;10/08/2005; 1 ; - ; 25 ; 1 ;09/04/2026; 5 ; - ; 844.510.578 ; 3.040.718.243 ; 2.504.131.000 ; 51.682.532 ; 3.885.228.821 
+ 46 ; KSU. Sari Jati Ayu ; Desa Sangsit ; Sawan ; 21/BH/Diskop/XI/2004 ;10/11/2004; 1 ; - ; 60 ; - ;17/02/2018; 8 ; 1 ; 323.819.374 ; 1.084.252.074 ; 841.086.500 ; 21.286.026 ; 1.408.071.448 
+ 47 ; KSU. Usaha Jaya ; Desa Celukan bawang ; Gerokgak ; 16/BH/Disperindagkop/VIII/2005 ;23/08/2005; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 48 ; KSU. Mitra Dana Mandiri ; Kel. Banyuning ; Buleleng ; 19/BH/Disperindagkop/VIII/2005 ;30/08/2005; 1 ; - ; 132 ; - ;23/02/2025; 5 ; - ; 330.271.149 ; 521.237.064 ; 613.300.000 ; 20.151.050 ; 851.508.213 
+ 49 ; KSU. Tirta Wana Amerta ; Desa Wana Giri ; Sukasada ; 22/BH/Disperindagkop/X/2005 ;24/10/2005; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 50 ; KSU. Bali Indah ; Desa Banjar ; Banjar ; 24/BH/Disperindagkop/X/2005 ;31/10/2005; 1 ; - ; 73 ; 1 ;20/02/2026; 13 ; 1 ; 229.064.485 ; 265.731.384 ; 529.186.250 ; 9.231.863 ; 494.795.869 
+ 51 ; KSU. Apik ; Kel. Bhaktiseraga ; Buleleng ; 27/BH/Disperindagkop/III/2006 ;28/03/2006; 1 ; - ; 49 ; - ;06/04/2019; 1 ; 1 ; 211.228.574 ; - ; 2.500 ; - ; 211.228.574 
+ 52 ; KSU. Kencana Arta ; Desa Menyali ; Sawan ; 31/BH/Disperindagkop/V/2006 ;09/05/2006; 1 ; - ; 21 ; - ;26/3/2023; 4 ; 1 ; 82.070.867 ; 116.779.953 ; 115.005.000 ; 12.556.300 ; 198.850.820 
+ 53 ; KSU. Sekaa Demen. ; Kel. Banyuning  ; Buleleng ; 35/BH/Disperindagkop/VI/2006 ;14/06/2006; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 54 ; KSU. Dana Mutiara Horison ; Desa Busungbiu ; Busungbiu ; 36/BH/Disperindagkop/VII/2006 ;31/07/2006; 1 ; - ; 796 ; 1 ;23/01/2026; 12 ; 1 ; 607.664.546 ; 2.839.231.507 ; 2.549.503.850 ; 77.400.268 ; 3.446.896.053 
+ 55 ; KSU. Gema Bersama ; Desa Ambengan ; Sukasada ; 40/BH/Disperindagkop/VIII/2006 ;02/08/2006; 1 ; - ; 401 ; 1 ;25/03/2026; 4 ; - ; 288.616.180 ; 5.741.938.025 ; 4.661.944.189 ; 30.065.035 ; 6.030.554.205 
+ 56 ; KSU. Laksmi Prasanthi ; Desa Tembok ; Tejakula ; 41/BH/Disperindagkop/VIII/2006 ;28/08/2006; 1 ; - ; 424 ; 1 ;20/01/2026; 5 ; - ; 2.009.649.602 ; 4.751.493.440 ; 5.900.206.373 ; 117.307.045 ; 6.761.143.042 
+ 57 ; KSU. Karya Jati Mandiri ; Desa Tukadmungga ; Buleleng ; 44/BH/Disperindagkop/X/2006 ;18/10/2006; 1 ; - ; 30 ; 1 ;04/03/2026; 10 ; - ; 94.302.882 ; 151.721.318 ; 197.726.521 ; 406.620 ; 246.024.200 
+ 58 ; KSU. Karya Dharma Sakti ; Desa Celukan bawang ; Gerokgak ; 45/BH/Disperindagkop/XII/2006 ;01/12/2006; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 59 ; KSU. Dagang Negara. ; Desa Bhaktiseraga ; Buleleng ; 03/BH/KDK 22.1/XII/1998 ;22/12/1998; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 60 ; KSU. Asti Taman Sari ; Desa Alasangker ; Buleleng ; 48/BH/Disperindagkop/XII/2006 ;07/12/2006; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 61 ; KSU. Jaya Abadi ; Desa Sumberkima ; Gerokgak ; 47/BH/Disperindagkop/XI/2006 ;13/11/2006; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 62 ; KSU. Tani Mekar ; Desa Tembok ; Tejakula ; 53/BH/Disperindagkop/XII/2006 ;18/12/2006; 1 ; - ; 21 ; - ;08/02/2019; 2 ; - ; 13.669.731 ; 43.883.299 ; 22.468.260 ; 935.770 ; 57.553.030 
+ 63 ; KSU. Karya Nadi ; Desa Patas ; Gerokgak ; 04/BH/XXVII.3/IV/2007 ;20/04/2007; 1 ; - ; 25 ; 1 ;12/04/2026; 9 ; - ; 652.425.138 ; 7.275.831.163 ; 2.539.081.700 ; 41.973.570 ; 7.928.256.301 
+ 64 ; KSU. Dharma Hastuti ; Desa Kayu Putih ; Banjar ; 08/BH/XXVII. 3/VII/2007 ;27/07/2007; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 65 ; KSU. Makmur Sejahtera ; Kel. Banyuning ; Buleleng ; 13/BH/XXVII. 3/X/2007 ;05/10/2007; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 66 ; KSU. Tresna Jati ; Kel. Sukasada ; Sawan ; 15/BH/XXVII.3/XII/2007 ;03/12/2007; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 67 ; KSU. Dana Yasa Abadi ; Desa Kalibukbuk ; Buleleng ; 17/BH/XXVII. 3/II/2008 ;25/02/2008; 1 ; - ; 480 ; 1 ;20/04/2026; 5 ; - ; 822.122.770 ; 686.004.500 ; 1.464.763.370 ; 277.322.770 ; 1.508.127.270 
+ 68 ; KSU. Krama Banyuning Desa ; Kel. Banyuning ; Buleleng ; 20/BH/XXVII. 3/IV/2008 ;16/04/2008; 1 ; - ; 288 ; 1 ;27/02/2026; 4 ; - ; 617.158.236 ; 402.755.527 ; 894.878.400 ; 10.488.984 ; 1.019.913.763 
+ 69 ; KSU. Arjana Subiksa ; Desa Pegadungan ; Sukasada ; 23/BH/XXVII. 3/IV/2008 ;23/04/2008; 1 ; - ; 159 ; 1 ;14/02/2026; 3 ; - ; 751.569.478 ; 3.688.954.213 ; 1.993.921.000 ; 39.890.875 ; 4.440.523.691 
+ 70 ; KSU. Suka Duka Shanti ; Desa Banyuatis ; Banjar ; 27/BH/XXVII. 3/V/2008 ;15/05/2008; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 71 ; KSU. Cipta Dharma Sejahtera ; Desa Bebetin ; Sawan ; 29/BH/XXVII. 3/V/2008 ;19/05/2008; 1 ; - ; 59 ; - ;17/1/2021; 6 ; - ; 681.442.728 ; 617.708.668 ; 1.713.750.000 ; 4.890.365 ; 1.299.151.396 
+ 72 ; KSU. Mekar Sari Jaya ; Kel. Penarukan ; Buleleng ; 30/BH/XXVII. 3/V/2008 ;22/05/2008; 1 ; - ; 30 ; - ;19/02/2023; 5 ; - ; 303.654.848 ; 229.328.397 ; 257.627.245 ; 10.460.452 ; 532.983.245 
+ 73 ; KSU. Fajar Harapan ; Desa Nagasepaha ; Buleleng ; 39/BH/XXVII. 3/X/2008 ;16/10/2008; 1 ; - ; 118 ; - ;09/03/2025; 3 ; - ; 473.145.232 ; 476.227.703 ; 323.524.000 ; 19.997.485 ; 949.372.935 
+ 74 ; KSU. Tri Dasi Caka Tunggal ; Desa Pegadungan ; Sukasada ; 42/BH/XXVII. 3/X/2008 ;31/10/2008; 1 ; - ; 26 ; 1 ;20/04/2026; 1 ; - ; 7.522.165 ; 18.172.099 ; 19.037.250 ; 1.079.450 ; 25.694.264 
+ 75 ; KSU. Dana Lestari ; Kel. Banyuning ; Buleleng ; 45/BH/XXVII. 3/XII/2008 ;23/12/2008; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 76 ; KSU. Anugrah Sejati ; Desa Jagaraga ; Sawan ; 48/BH/XXVII. 3/IV/2009 ;20/04/2009; 1 ; - ; 105 ; - ;13/02/2025; 1 ; - ; 150.270.800 ; 74.379.200 ; 201.000.000 ; 4.798.750 ; 224.650.000 
+ 77 ; KSU. Sata Winangun ; Desa Sambirenteng ; Tejakula ; 47/BH/XXVII. 3/IV/2009 ;20/04/2009; 1 ; - ; 87 ; 1 ;07/03/2026; - ; - ; 181.913.701 ; 13.053.217 ; 269.533.000 ; 16.346.986 ; 194.966.918 
+ 78 ; KSU. Lumbung Arta Abadi ; Desa Kayu Putih ; Banjar ; 50/BH/XXVIII.3/X/2009 ;02/10/2009; 1 ; - ; 52 ; - ;28/07/2023; 3 ; 1 ; 174.663.275 ; 727.452.413 ; 816.628.688 ; 11.425.529 ; 902.115.688 
+ 79 ; KSU. Tunas Mertha Mandiri ; Banjar tegal ; Buleleng ; 53/BH/XXVIII.3/X/2009 ;02/10/2009; 1 ; - ; 45 ; - ;25/2/2024; 21 ; - ; 125.755.227 ; 193.532.973 ; 319.225.200 ; 2.557.200 ; 319.288.200 
+ 80 ; KSU. Tri Jaya ; Desa Alasangker ; Buleleng ; 58/BH/XXVII. 3/XI/2009 ;30/11/2009; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 81 ; KSU. Sedana Murti ; Desa Bondalem ; Tejakula ; 59/BH/XXVII. 3/XI/2009 ;30/11/2009; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 82 ; KSU. Putra Dewata ; Desa Banjar Asem ; Seririt ; 61/BH/XXVII.3/XII/2009 ;28/12/2009; 1 ; - ; 26 ; - ;30/06/2018; - ; - ; 316.232.998 ; 198.334.216 ; 243.604.000 ; 30.095 ; 514.567.214 
+ 83 ; KSU. Anugerah Mandiri ; Desa Sumber Kima ; Gerokgak ; 62/BH/XXVII.3/XII/2009 ;28/12/2009; 1 ; - ; 532 ; 1 ;29/03/2026; 8 ; 1 ; 984.720.898 ; 8.899.697.242 ; 6.987.431.100 ; 36.997.929 ; 9.884.418.140 
+ 84 ; KSU. Tunggal Sejahtera ; Kerobokan ; Sawan ; 87/BH/XXVII.3/XI/2010 ;22/11/2010; 1 ; - ; 49 ; 1 ;09/02/2026; 1 ; - ; 307.447.071 ; 18.596.466 ; 130.915.759 ; 19.105.106 ; 326.043.537 
+ 85 ; KSU. Ampuh ; Kel. Banjar Tegal ; Buleleng ; 67/BH/XXVII. 3/V/2010 ;02/05/2010; 1 ; - ; 321 ; 1 ;27/02/2026; 4 ; - ; 794.256.729 ; 1.431.818.777 ; 1.059.617.999 ; 20.322.653 ; 2.226.075.506 
+ 86 ; KSU. Dana Karya ; Desa Pejarakan ; Gerokgak ; 68/BH/XXVII. 3/V/2010 ;02/05/2010; 1 ; - ; 402 ; 1 ;10/03/2026; 6 ; - ; 1.686.709.751 ; 2.105.553.371 ; 3.459.545.400 ; 19.001.256 ; 3.792.263.122 
+ 87 ; KSU. Partha Wijaya ; Desa Tejakula ; Tejakula ; 71/BH/XXVII. 3/V/2010 ;20/05/2010; 1 ; - ; 570 ; 1 ;15/02/2026; 8 ; 1 ; 3.162.048.274 ; 4.783.037.706 ; 7.619.177.453 ; 188.402.032 ; 7.945.085.980 
+ 88 ; KSU. Dana Mandiri ; Desa Sanggalangit ; Gerokgak ; 74/BH/XXVII.3/VII/2010 ;01/07/2010; 1 ; - ; 1.393 ; 1 ;02/02/2026; 10 ; - ; 626.929.220 ; 5.994.493.916 ; 2.848.030.000 ; 35.600.000 ; 6.621.423.136 
+ 89 ; KSU. Karya Wisata ; Desa Pemuteran ; Gerokgak ; 77/BH/XXVII. 3/VII/2010 ;21/07/2010; 1 ; - ; 2.903 ; 1 ;01/02/2026; 19 ; - ; 2.047.007.243 ; 13.404.775.453 ; 9.813.484.794 ; 146.850.000 ; 15.451.782.696 
+ 90 ; KSU. Sari Dana Sejati ; Kel Penarungan  ; Buleleng ; 78/BH/XXVII. 3/VII/2010 ;21/07/2010; 1 ; - ; 33 ; - ;21/6/2022; 8 ; - ; 314.857.596 ; 344.651.887 ; 197.487.185 ; 13.266.882 ; 659.509.483 
+ 91 ; KSU. Astiti Dharma ; Desa Giri Mas ; Sawan ; 79/BH/XXVII. 3/VIII/2010 ;09/08/2010; 1 ; - ; 93 ; - ;19/2/2023; - ; - ; 114.874.615 ; 26.432.205 ; 79.000.000 ; 7.422.897 ; 141.306.820 
+ 92 ; KSU. Perawat Buleleng ; Kel. Kendran ; Buleleng ; 83/BH/XXVII. 3/IX/2010 ;02/09/2010; 1 ; - ; 195 ; - ;31/3/2023; - ; - ; 1.015.630.238 ; 107.156.857 ; 109.500.000 ; 11.211.166 ; 1.122.787.095 
+ 93 ; KSU. Giri Amertha ; Desa Giri Mas ; Sawan ; 84/BH/XXVII. 3/IX/2010 ;02/09/2010; - ; 1 ; 121 ; - ;21/03/2019; 1 ; - ; 246.700.648 ; 1.537.830.255 ; 994.110.000 ; 44.749.239 ; 1.784.530.903 
+ 94 ; KSU. Dana Sejahtera ; Desa Jagaraga ; Sawan ; 85/BH/XXVII. 3/IX/2010 ;06/09/2010; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 95 ; KSU. Citra Bangun ; Kel. Penarungan ; Buleleng ; 02/BH/XXVII.3/V/2011 ;02/05/2011; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 96 ; KSU. Surya Kertha Luhur ; Desa Tukadmungga ; Buleleng ; 03/BH/XXVII.3/V/2011 ;20/05/2011; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 97 ; KSU. Manik Sari ; Desa Tamblang ; Kubutambahan ; 05/BH/XXVII.3/VI/2011 ;21/06/2011; 1 ; - ; 121 ; 1 ;11/03/2026; 4 ; - ; 478.546.568 ; 1.670.254.070 ; 610.765.800 ; 5.553.512 ; 2.148.800.638 
+ 98 ; KSU. Sari Bhuana ; Desa Temukus ; Banjar ; 07/BH/XXVII.3/VI/2011 ;27/06/2011; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 99 ; KSU. Cipta Karya Bersama ; Desa Pemaron ; Buleleng ; 08/BH/XXVII.3/VII/2011 ;14/07/2011; 1 ; - ; 115 ; - ;19/03/2017; 5 ; - ; 123.512.099 ; 630.131.324 ; 640.288.128 ; 8.917.766 ; 753.643.423 
+ 100 ; KSU. Semara Dhana Persada ; Desa Gerokgak ; Gerokgak ; 09/BH/XXVII.3/VII/2011 ;21/07/2011; 1 ; - ; 50 ; - ;29/07/2018; - ; - ; 42.789.750 ; 102.210.250 ; 65.000.000 ; 3.742.500 ; 145.000.000 
+ 101 ; KSU. Satria Wiguna Artha ; Desa Sekumpul ; Sawan ; 10/BH/XXVII.3/VII/2011 ;28/07/2011; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 102 ; KSU. Dana Pertiwi ; Desa Sulanyah ; Seririt ; 11/BH/XXVII.3/VIII/2011 ;08/08/2011; 1 ; - ; 1.429 ; - ;21/4/2024; 7 ; 1 ; (285.266.619); 2.244.707.627 ; 1.790.098.551 ; (277.855.199); 1.959.441.008 
+ 103 ; KSU. Pusaka Buleleng ; Kel. Penarukan ; Buleleng ; 12/BH/XXVII.3/VIII/2011 ;08/08/2011; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 104 ; KSU. Widhi Sedana Yoga ; Desa Kubutambahan ; Kubutambahan ; 16/BH/XXVII.3/IX/2011 ;27/10/2011; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 105 ; KSU. Maju Bersama ; Patas ; Gerokgak ; 17/BH/XXVII.3/X/2011 ;27/10/2011; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 106 ; KSU. Makmur Jaya ; Desa Padangbulia ; Sukasada ; 18/BH/XXVII.3/XI/2011 ;28/11/2011; 1 ; - ; 42 ; - ;31/3/2023; 4 ; - ; (57.301.130); 873.320.500 ; 98.678.500 ; (225.787.468); 816.019.370 
+ 107 ; KSP. Putra Nadi Mandiri ; Kel Seririt ; Seririt ; 19/BH/XXVII.3/XI/2011 ;28/11/2011; 1 ; - ; 23 ; - ;20/04/2025; 3 ; 1 ; 86.201.123 ; 917.944.891 ; 819.497.000 ; 13.075.000 ; 1.004.146.014 
+ 108 ; KSU. Mahanara ; Desa Pemaron ; Buleleng ; 05/BH/XXVII.3/III/2012 ;20/03/2012; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 109 ; KSU. Delima ; Desa Tukadmungga ; Buleleng ; 06/BH/XXVII.3/III/2012 ;30/03/2012; 1 ; - ; 71 ; 1 ;28/02/2026; 2 ; - ; 127.634.368 ; 59.308.469 ; 149.172.886 ; 8.288.844 ; 186.942.837 
+ 110 ; KSU. Dana Santika ; Desa Bubunan ; Seririt ; 07/BH/XXVII.3/IX/2012 ;05/09/2012; 1 ; - ; 49 ; 1 ;11/03/2026; 13 ; 1 ; 1.318.658.325 ; 516.958.122 ; 1.770.924.960 ; 65.246.848 ; 1.835.616.447 
+ 111 ; KSU. Samayaji ; Kel. Liligundi ; Buleleng ; 08/BH/XXVII.3/IX/2012 ;05/09/2012; - ; 1 ; 51 ; - ;19/03/2017; - ; - ; 103.266.782 ; 103.266.782 ; 160.791.391 ; 139.580.000 ; 206.533.564 
+ 112 ; KSU. Numtum Sari ; Desa Pemuteran ; Gerokgak ; 10/BH/XXVII.3/IX/2012 ;05/09/2012; 1 ; - ; 959 ; 1 ;02/04/2026; 6 ; - ; 2.480.623.421 ; 6.040.165.984 ; 4.107.100.000 ; 19.379.754 ; 8.520.789.405 
+ 113 ; KSU. Prima Mandiri ; Kel. Banyuasri ; Buleleng ; 13/BH/XXVII.3/IX/2012 ;17/09/2012; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 114 ; KSU. Silih Ulih ; Desa Bebetin ; Sawan ; 14/BH/XXVII.3/IX/2012 ;17/09/2012; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 115 ; KSU. Paramuda Sejahtera ; Desa Anturan ; Buleleng ; 15/BH/XXVII.3/X/2012 ;28/11/2012; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 116 ; KSU. Dana Marga ; Desa Petandakan ; Buleleng ; 16/BH/XXVII.3/XI/2012 ;28/11/2012; 1 ; - ; 170 ; 1 ;25/01/2026; 3 ; 1 ; 668.306.759 ; 2.696.029.214 ; 2.252.943.506 ; 45.106.928 ; 3.364.335.973 
+ 117 ; KSU. Sumber Sari ; Desa Sumberkima ; Gerokgak ; 19/BH/XXVII.3/XII/2012 ;10/12/2012; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 118 ; KSU. Mitra Pandawa Mandiri ; Kel. Kaliuntu ; Buleleng ; 01/BH/XXVII.3/I/2013 ;10/01/2013; 1 ; - ; 28 ; - ;22/03/2024; - ; - ; 97.692.792 ; 63.769.972 ; 156.000.000 ; 493.950 ; 161.462.764 
+ 119 ; KSU. Wira Usaha Usadha Bhakti ; Desa Bungkulan ; Sawan ; 02/BH/XXVII.3/I/2013 ;10/01/2013; 1 ; - ; 37 ; 1 ;13/04/2026; - ; - ; 252.536.060 ; 131.060.940 ; 284.517.500 ; 34.177.500 ; 383.597.000 
+ 120 ; KSU. Kerti Semaya ; Kel. Kendran ; Buleleng ; 03/BH/XXVII.3/II/2013 ;06/02/2013; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 121 ; KSU. Wana Sumber Makmur ; Desa Pejarakan ; Gerokgak ; 02/BH/XXVII.3/IV/2014 ;17/04/2014; 1 ; - ; 100 ; - ;30/8/2021; - ; - ; 64.866.933 ; 4.000.000 ; 12.500.000 ; 3.196.823 ; 68.866.933 
+ 122 ; KSU Hidup Baru ; Kel. Penarukan ; Buleleng ; 13/BH/XXVII.3/VII/2015 ;30/07/2015; 1 ; - ; 135 ; 1 ;16/01/2026; 2 ; - ; 2.062.049.051 ; 1.058.973.211 ; 1.939.633.000 ; 107.471.574 ; 3.121.022.262 
+ 123 ; KSU. Arta Dharma Utama ; Desa Banjar ; Banjar ; 25/BH/XXVII.3/VIII/2015 ;31/08/2015; 1 ; - ; 125 ; - ;23/03/2025; 2 ; - ; 223.272.971 ; 78.935.424 ; 232.093.823 ; 1.082.352 ; 302.208.395 
+ 124 ; KSU. Wahyu Wedana Artha ; Kel. Banyuning ; Buleleng ; 05/BH/XXVII.3/III/2016 ;31/03/2016; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 125 ; KSU Karya Mandiri Sejahtera ; Kel. Banyuasri ; Buleleng ; 11/BH/XXVII.3/IV/2016 ;08/04/2016; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 126 ; KSU. Amerta Sari Group  ; Desa Pengelatan ; Buleleng ; 15/BH/XXVII.3/IV/2016 ;08/04/2016; 1 ; - ; 20 ; - ;19/05/2018; 1 ; - ; 33.928.000 ; 38.756.000 ; 62.320.000 ; 2.492.800 ; 72.684.000 
+ 127 ; KSU. Sari Artha Lestari ; Kel. Kendran ; Buleleng ; 21/BH/XXVII.3/IV/2016 ;11/04/2016; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 128 ; KSU. Eka Sukma Jaya Abadi ; Desa Kaliasem ; Banjar ; 22/BH/XXVII.3/IV/2016 ;11/04/2016; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 129 ; KSU. Dana Abadi ; Desa Pejarakan ; Gerokgak ; 01/BH/XXVII.3/I/2016 ;15/01/2016; 1 ; - ; 47 ; - ;23/06/2019; 2 ; - ; 85.834.486 ; 215.420.468 ; 197.654.250 ; 11.967.825 ; 301.254.954 
+ 130 ; KSU. Karya Sami Rahayu ; Desa Pejarakan ; Gerokgak ; 17/BH/XXVII.3/IV/2016 ;11/04/2016; 1 ; - ; 23 ; 1 ;07/03/2026; 6 ; 1 ; 204.045.081 ; 902.327.057 ; 920.557.177 ; 8.551.792 ; 1.106.372.138 
+ 131 ; KSP. Bali Nasional Akuntan ; Kel. Sukasada ; Sukasada ; 01/BH/KDK.22.1/III/2001 ;14/03/2001; 1 ; - ; 1.280 ; 1 ;17/01/2026; 15 ; - ; 2.425.167.739 ; 25.618.602.350 ; 10.929.641.125 ; 286.822.466 ; 28.043.770.089 
+ 132 ; KSP. Swadaya ; Kel. Banyuning ; Buleleng ; 03/BH/Diskop/IV/2002 ;05/04/2002; 1 ; - ; 284 ; 1 ;25/03/2026; 11 ; 1 ; 470.353.000 ; 2.839.975.391 ; 2.676.543.200 ; 53.869.000 ; 3.310.328.391 
+ 133 ; KSP. Artha Winangun ; Desa Penuktukan ; Tejakula ; 10/BH/Diskop/VII/2002 ;10/07/2002; 1 ; - ; 46 ; 1 ;18/01/2026; 1 ; - ; 487.748.742 ; 114.152.893 ; 569.489.893 ; 16.614.075 ; 601.901.635 
+ 134 ; KSP. Lintas Desa Pada Payu ; Banyuning ; Buleleng ; 11/BH/Diskop/VII/2002 ;10/07/2002; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 135 ; KSP. Nusa Abadi ; Kel. Banjar Bali ; Buleleng ; 15/BH/Disperindagkop/VIII/2005 ;15/08/2005; 1 ; - ; 766 ; 1 ;14/02/2026; 9 ; - ; 864.608.227 ; 8.250.914.675 ; 6.526.030.213 ; 36.825.900 ; 9.115.522.902 
+ 136 ; KSP. Urip Sejahtera ; Desa Kubutambahan ; Kubutambahan ; 09/BH/Diskop/X/2003 ;06/10/2003; 1 ; - ; 198 ; - ;12/03/2025; 2 ; 1 ; 177.198.015 ; 661.424.602 ; 660.307.500 ; 26.268.460 ; 838.622.617 
+ 137 ; KSP. Cipta Mulia ; Desa Bondalem ; Tejakula ; 10/BH/Diskop/IX/2003 ;26/09/2003; 1 ; - ; 907 ; 1 ;21/02/2026; 7 ; 1 ; 5.684.981.633 ; 13.719.453.686 ; 12.508.700.713 ; 277.003.477 ; 19.404.435.319 
+ 138 ; KSP. Dana Mukti ; Kel. Banyuning ; Buleleng ; 12/BH/Diskop/XI/2003 ;10/11/2003; 1 ; - ; 1.081 ; 1 ;25/01/2026; 14 ; 1 ; 2.524.185.381 ; 19.896.012.954 ; 15.218.986.550 ; 112.508.354 ; 22.420.198.335 
+ 139 ; KSP. Mekar Sari Banyupoh ; Desa Banyupoh ; Gerokgak ; 03/BH/Diskop/II/2004 ;24/02/2004; 1 ; - ; 657 ; 1 ;21/02/2026; 6 ; 1 ; 1.480.673.287 ; 4.856.813.757 ; 2.809.184.800 ; 35.447.381 ; 6.337.487.044 
+ 140 ; KSP. Anugrah Sari ; Desa kalianget ; Seririt ; 05/BH/Diskop/V/2004 ;04/05/2004; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 141 ; KSP. Wangun Sesana ; Kel. Banyuasri ; Buleleng ; 06/BH/Diskop/V/2004 ;04/05/2004; 1 ; - ; 345 ; 1 ;18/02/2026; 8 ; 1 ; 787.969.342 ; 4.903.550.969 ; 2.596.009.500 ; 77.482.647 ; 5.691.520.311 
+ 142 ; KSP. Karya Abadi ; Desa Temukus ; Banjar ; 15/BH/Diskop/VIII/2004 ;16/08/2004; 1 ; - ; 31 ; 1 ;08/02/2026; 3 ; 1 ; 91.118.978 ; 106.115.549 ; 196.295.500 ; 2.752.200 ; 197.234.527 
+ 143 ; KSP. Sari Kumala ; Kel. Banjar Bali ; Buleleng ; 16/BH/Diskop/VIII/2004 ;19/08/2004; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 144 ; KSP. LEPP-M3 Putra Mina Samudra ; Kel. Penarukan ; Buleleng ; 17/BH/Diskop/VIII/2004 ;17/08/2004; 1 ; - ; 723 ; 1 ;16/03/2026; 6 ; 1 ; 3.567.083.056 ; 577.773.630 ; 3.580.525.329 ; 63.318.978 ; 4.144.856.686 
+ 145 ; KSP. Sami Liang ; Kel. Penarukan ; Buleleng ; 23/BH/Diskop/XII/2004 ;20/01/2004; 1 ; - ; 28 ; - ;17/03/2023; 4 ; - ; 192.943.024 ; 843.821.911 ; 862.666.475 ; 14.488.829 ; 1.036.764.935 
+ 146 ; KSP. Eka Karya Utama ; Kel. Banyuning ; Buleleng ; 01/BH/Diskop/II/2005 ;16/02/2005; 1 ; - ; 30 ; - ;27/03/2023; 5 ; - ; (14.556.948); 931.660.838 ; 500.160.200 ; (99.814.991); 917.103.890 
+ 147 ; KSP. Artha Guna Bhakti ; Kel. Banjar Tegal ; Buleleng ; 02/BH/Disperindagkop/V/2005 ;25/05/2005; 1 ; - ; 54 ; - ;24/03/2023; 7 ; 1 ; 883.240.532 ; 8.493.062.353 ; 6.330.589.000 ; 23.783.500 ; 9.376.302.885 
+ 148 ; KSP. Ganesa Studi Grup ; Kel. Banyuasri ; Buleleng ; 03/BH/Disperindagkop/V/2005 ;25/05/2005; 1 ; - ; 104 ; 1 ;11/04/2026; 4 ; - ; 648.970.599 ; 406.795.557 ; 712.697.423 ; 7.961.774 ; 1.055.766.156 
+ 149 ; KSP. Ayu Luwih ; Desa Pengelatan ; Buleleng ; 06/BH/Disperindagkop/V/2005 ;30/05/2005; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 150 ; KSP. Arya Setia Dana ; Kel. Banyuning ; Buleleng ; 07/BH/Disperindagkop/VI/2005 ;15/06/2005; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 151 ; KSP. Karya Keluarga Sejahtera ; Desa Menyali ; Sawan ; 17/BH/Disperindagkop/VIII/2005 ;23/08/2005; 1 ; - ; 27 ; - ;26/2/2023; 5 ; - ; 366.213.148 ; 1.164.465.893 ; 1.025.900.000 ; 15.625.047 ; 1.530.679.041 
+ 152 ; KSP. Panca Pandawa ; Banjar Tegeha ; Banjar ; 32/BH/Disperindagkop/V/2006 ;15/05/2006; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 153 ; KSP. Citra Telekomunikasi Mandiri ; Kel. Banjar Bali ; Buleleng ; 39/BH/Disperindagkop/XIII/2006 ;02/08/2006; 1 ; - ; 439 ; 1 ;31/01/2026; 6 ; 1 ; 97.675.368 ; 4.283.085.858 ; 2.926.861.809 ; (5.838.965); 4.380.761.226 
+ 154 ; KSP. Sanjiwani ; Kel. Banjar Jawa ; Buleleng ; 49/BH/Disperindagkop/XII/2006 ;07/12/2006; 1 ; - ; 204 ; 1 ;22/02/2026; 4 ; - ; 951.357.214 ; 652.148.738 ; 1.556.265.381 ; 46.084.845 ; 1.603.505.952 
+ 155 ; KSP. Ratna Dana ; Kel. Sukasada ; Sukasada ; 10/BH/XXVII. 3/IX/2007 ;05/09/2007; 1 ; - ; 94 ; 1 ;13/03/2026; 3 ; - ; 256.910.472 ; 133.952.791 ; 313.149.900 ; 6.951.133 ; 390.863.263 
+ 156 ; KSP. Anugrah Dewata ; Desa Penyabangan ; Gerokgak ; 14/BH/XXVII. 3/XI/2007 ;28/11/2007; 1 ; - ; 140 ; 1 ;16/03/2026; 4 ; 1 ; 122.304.730 ; 2.385.670.340 ; 2.085.815.225 ; 24.938.758 ; 2.507.975.070 
+ 157 ; KSP. Bina Insani ; Desa Pemaron ; Buleleng ; 24/BH/XXVII. 3/IV/2008 ;23/04/2008; 1 ; - ; 26 ; 1 ;12/04/2026; 1 ; - ; 1.727.635.729 ; 695.255.761 ; 1.691.938.000 ; 40.084.033 ; 2.422.891.490 
+ 158 ; KSP. Graha Paramitha ; Desa Banyupoh  ; Gerokgak ; 35/BH/XXVII. 3/IX/2008 ;09/09/2008; 1 ; - ; 65 ; 1 ;25/03/2026; 2 ; - ; 94.476.350 ; 249.600.850 ; 301.794.500 ; 3.526.100 ; 344.077.200 
+ 159 ; KSP. Citra Abadi Jaya ; Banyuasri ; Buleleng ; 46/BH/XXVII. 3/XII/2008 ;23/12/2008; 1 ; - ; 25 ; - ;19/04/2025; 5 ; - ; 117.639.618 ; 662.010.082 ; 673.701.150 ; 4.865.250 ; 779.649.700 
+ 160 ; KPSP Dwi Tunggal Tirta Sari ; Desa Tejakula ; Tejakula ; 11/BH/Disperindagkop/VII/2005 ;14/07/2005; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 161 ; KSP. Mandala Amerta Sedana ; Kel. Banjar Jawa ; Buleleng ; 51/BH/XXVII.3/X/2009 ;02/10/2009; 1 ; - ; 1.202 ; 1 ;21/02/2026; 8 ; 1 ; 1.858.727.203 ; 7.890.745.169 ; 5.298.384.000 ; 83.748.934 ; 9.749.472.372 
+ 162 ; KSP. Singaraja Agung ; Kel. Banjar Jawa ; Buleleng ; 52/BH/XXVII.3/X/2009 ;02/10/2009; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 163 ; KSP. Suryanadi ; Desa Pemaron ; Buleleng ; 54/BH/XXVII. 3/XI/2009 ;10/11/2009; 1 ; - ; 88 ; - ;29/03/2019; 1 ; - ; 53.825.912 ; 50.249.350 ; 103.075.000 ; 3.050.888 ; 104.075.262 
+ 164 ; KSP. Sari Arta ; Banjar Tegeha ; Banjar ; 69/BH/XXVII. 3/V/2010 ;20/05/2010; 1 ; - ; 35 ; - ;26/04/2025; 2 ; - ; 232.679.603 ; 434.369.710 ; 613.701.150 ; 7.485.150 ; 667.049.313 
+ 165 ; KSP. Sedana Mertha ; Desa Suwug ; Sawan ; 70/BH/XXVII. 3/V/2010 ;20/05/2010; 1 ; - ; 401 ; - ;26/02/2025; 4 ; - ; 918.094.649 ; 4.641.514.295 ; 1.747.057.000 ; 13.471.706 ; 5.559.608.944 
+ 166 ; KSP. Sari Dewata ; Desa Banyupoh ; Gerokgak ; 81/BH/XXVII. 3/VIII/2010 ;31/08/2010; 1 ; - ; 96 ; - ;26/3/2023; 6 ; - ; 203.619.615 ; 1.535.740.521 ; 246.865.500 ; (48.850.636); 1.739.360.136 
+ 167 ; KSP. Jaya Laksmi ; Kel. Kendran ; Buleleng ; 37/BH/XXVII. 3/IX/2008 ;09/09/2008; 1 ; - ; 128 ; - ;30/09/2019; 2 ; - ; 210.903.180 ; 1.337.566.851 ; 1.339.207.600 ; 17.273.123 ; 1.548.470.031 
+ 168 ; KSP. Bina Usaha Sejahtera ; Desa Banjar ; Banjar ; 01/BH/XXVII.3/I/2011 ;06/01/2011; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 169 ; KSP. Swasthi Mandiri ; Kel. Banjar Jawa ; Buleleng ; 09/BH/XXVII.3/IX/2012 ;05/09/2012; 1 ; - ; 434 ; 1 ;30/03/2026; 4 ; - ; 87.121.713 ; 946.341.935 ; 822.380.899 ; (7.135.560); 1.033.463.648 
+ 170 ; KSP. Budi Diva Amerta ; Kel. Penarukan ; Buleleng ; 17/BH/XXVII.3/XII/2012 ;10/12/2012; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 171 ; KSP. Manawa Dharma ; Desa Jagaraga ; Sawan ; 18/BH/XXVII.3/XII/2012 ;10/12/2012; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 172 ; KSP. Langgeng Sejahtera ; Desa Bukti ; Kubutambahan ; 04/BH/XXVII.3/I/2015 ;30/01/2015; 1 ; - ; 236 ; - ;22/03/2025; 3 ; - ; 144.128.949 ; 3.396.001.448 ; 2.081.313.000 ; (64.680.168); 3.540.130.397 
+ 173 ; KSP. Citra Mandiri ; Desa Ambengan ; Sukasada ; 01/BH/XXVII.3/I/2015 ;30/01/2015; 1 ; - ; 37 ; - ;19/2/2024; 5 ; 1 ; 400.854.277 ; 2.783.716.034 ; 509.156.437 ; 52.041.645 ; 3.184.570.311 
+ 174 ; KSP. Dana Baruna ; Desa Bhaktiseraga ; Buleleng ; 05/BH/XXVII.3/XI/2014 ;10/11/2014; 1 ; - ; 21 ; - ;30/04/2025; 1 ; - ; (129.881.490); 688.120.417 ; 513.062.726 ; (112.167.350); 558.238.927 
+ 175 ; KSP. Sejahtera Mandiri ; Desa Gobleg ; Banjar ; 03/BH/XXVII.3/I/2015 ;30/01/2015; 1 ; - ; 200 ; 1 ;28/02/2026; 3 ; - ; 500.231.291 ; 513.993.559 ; 300.000.000 ; 5.185.941 ; 1.014.224.850 
+ 176 ; KSP. Sari Bakti ; Desa Bebetin ; Sawan ; 03/BH/XXVII.3/XI/2014 ;20/10/2014; 1 ; - ; 21 ; - ;26/01/2025; 1 ; - ; 278.078.627 ; 969.036.420 ; 619.580.400 ; 47.742.860 ; 1.247.115.047 
+ 177 ; KSP. Bali Dwipa Kubutambahan  ; Desa Kubutambahan ; Kubutambahan ; 02/BH/XXVII.3/I/2015 ;30/01/2015; 1 ; - ; 1.000 ; 1 ;14/02/2026; 4 ; 1 ; 2.487.831.070 ; 6.169.503.620 ; 3.975.000.000 ; 92.105.970 ; 8.657.334.690 
+ 178 ; Koperasi Jasa Persosid Jaya mandiri ; Kel. Sukasada ; Sukasada ; 000010/PAD/DEP.1/1/2019 ;17/04/2014; 1 ; - ; 63 ; 1 ;10/03/2026; 1 ; - ; 225.179.553 ; 4.620.211 ; 173.600.000 ; 6.099.695 ; 229.799.764 
+ 179 ; KSP. Dana Bersama ; Desa Tinga-Tinga ; Gerokgak ; 08/BH/XXVII.3/V/2015 ;20/05/2015; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 180 ; KSP. Manunggal Tama ; Desa Kalibukbuk ; Buleleng ; 09/BH/XXVII.3/V/2015 ;20/05/2015; 1 ; - ; 258 ; - ;27/03/2024; 5 ; - ; 1.423.713.149 ; 4.349.935.532 ; 3.976.026.510 ; 6.484.638 ; 5.773.648.681 
+ 181 ; KSP. Banua Amerta Sari ; Desa Bulian ; Kubutambahan ; 10/BH/XXVII.3/V/2015 ;20/05/2015; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 182 ; KSP. Tri Kusuma ; Kel. Kendran ; Buleleng ; 12/BH/XXVII.3/VII/2015 ;30/07/2015; 1 ; - ; 55 ; - ;20/05/2018; 2 ; - ; 287.764.815 ; 168.051.860 ; 368.613.000 ; 67.712.937 ; 455.816.675 
+ 183 ; KSP. Maju Jaya ; Desa Pangkung Paruk ; Seririt ; 15/BH/XXVII.3/VII/2015 ;30/07/2015; 1 ; - ; 30 ; 1 ;07/03/2026; 4 ; - ; 356.626.303 ; 89.837.858 ; 391.705.500 ; 19.032.425 ; 446.464.161 
+ 184 ; KSP. Bina Karya ; Desa Kaliasem ; Banjar ; 18/BH/XXVII.3/VIII/2015 ;31/08/2015; 1 ; - ; 21 ; 1 ;28/02/2026; 3 ; - ; 646.336.159 ; 206.724.016 ; 710.410.000 ; 13.762.760 ; 853.060.175 
+ 185 ; KSP. Damai Sejahtera ; Desa Sanggalangit ; Gerokgak ; 20/BH/XXVII.3/VIII/2015 ;31/08/2015; 1 ; - ; 320 ; 1 ;11/03/2026; 10 ; - ; 934.367.993 ; 11.360.001.653 ; 4.898.164.000 ; 31.982.440 ; 12.294.369.646 
+ 186 ; KSP. Wangun Sejahtera ; Desa Pakisan ; Kubutambahan ; 23/BH/XXVII.3/VIII/2015 ;31/08/2015; 1 ; - ; 283 ; 1 ;14/02/2026; 5 ; - ; 587.983.069 ; 4.398.806.350 ; 2.385.686.200 ; 36.053.680 ; 4.986.789.419 
+ 187 ; KSP. Karya Bersama Sejahtera ; Desa Tembok ; Tejakula ; 24/BH/XXVII.3/VIII/2015 ;31/08/2015; 1 ; - ; 54 ; - ;31/01/2025; 2 ; - ; 239.622.782 ; 428.025.075 ; 647.936.270 ; 2.095.303 ; 667.647.857 
+ 188 ; KSP. Usaha Beraya Bopeas ; Desa Bondalem ; Tejakula ; 16/BH/XXVII.3/IV/2016 ;08/04/2016; 1 ; - ; 182 ; 1 ;16/01/2026; 7 ; 1 ; 3.217.154.902 ; 6.490.001.464 ; 7.616.500.000 ; 123.973.218 ; 9.707.156.366 
+ 189 ; KSP. Karang Artha Sedana ; Desa Les ; Tejakula ; 20/BH/XXVII.3/IV/2016 ;11/04/2016; 1 ; - ; 289 ; - ;17/09/2024; 1 ; - ; 295.485.100 ; 138.944.900 ; 324.480.000 ; 69.942.500 ; 434.430.000 
+ 190 ; KSP. Mitra Sugara Jaya ; Desa Alasangker ; Buleleng ; 09/BH/XXVII.3/IV/2016 ;08/04/2016; 1 ; - ; 388 ; 1 ;08/02/2026; 6 ; - ; 98.207.428 ; 860.777.627 ; 274.486.000 ; 5.545.590 ; 958.985.055 
+ 191 ; KSP. Ganesha Mertha Utama ; Kel. Astina ; Buleleng ; 18/BH/XXVII.3/IV/2016 ;11/04/2016; 1 ; - ; 28 ; - ;01/03/2025; 8 ; - ; 1.124.628.830 ; 245.210.593 ; 970.735.010 ; (42.087.238); 1.369.839.423 
+ 192 ; KSP. Arta Dharma Persada ; Desa Bhaktiseraga ; Buleleng ; 002188/BH/M.KUKM.2/IX/2016 ;23/09/2016; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 193 ; KSP. Lumbung Sari ; Desa Padangbulia ; Sukasada ; 02/BH/XXVII.3/II/2016 ;11/02/2016; 1 ; - ; 42 ; - ;30/06/2018; - ; - ; 55.372.144 ; 15.000.000 ; 50.000.000 ; 3.708.000 ; 70.372.144 
+ 194 ; KSP. Guna Dharma Arta ; Desa Pemuteran ; Gerokgak ; 002189/BH/M.KUKM.2/IX/2016 ;23/09/2016; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 195 ; KSP. Satya Bakti Dharma Kerti ; Desa Bebetin ; Sawan ; 12/BH/XXVIII.3/IV/2016 ;08/04/2016; 1 ; - ; 191 ; - ;26/3/2023; - ; - ; 363.851.014 ; 27.295.369 ; 51.500.000 ; 9.311.415 ; 391.146.383 
+ 196 ; KSP. Bali Rama Putra ; Desa Kerobokan  ; Sawan ; 23/BH/XXVII.3/IV/2016 ;11/04/2016; 1 ; - ; 29 ; - ;27/03/2018; 4 ; - ; 674.313.267 ; 131.953.167 ; 468.433.000 ; 59.313.267 ; 806.266.434 
+ 197 ; KSP Sri Sedana Mukti ; Desa Sawan ; Sawan ; 002172/BH/M.KUKM.2/IX/2016 ;11/04/2016; 1 ; - ; 1.346 ; 1 ;11/03/2026; 5 ; 1 ; 1.341.929.019 ; 3.994.019.268 ; 3.520.500.751 ; 95.698.478 ; 5.335.948.287 
+ 198 ; KSP. Lumbung Padi ; Desa Bukti ; Kubutambahan ; 08/BH/XXVII.3/IV/2016 ;08/04/2016; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 199 ; KSP Cipta Mandiri ; Desa Pakisan ; Kubutambahan ; 19/BH/XXVII.3/IV/2016 ;11/04/2016; 1 ; - ; 445 ; 1 ;19/02/2026; 5 ; - ; 961.142.238 ; 2.876.392.212 ; 2.245.845.500 ; 52.693.715 ; 3.837.534.450 
+ 200 ; KSP. Sapta Dana ; Desa Alasangker ; Buleleng ; 03/BH/XXVII.3/II/2016 ;11/02/2016; 1 ; - ; 25 ; - ;31/5/2021; 6 ; - ; 33.266.173 ; 387.774.549 ; 157.396.100 ; 3.004.666 ; 421.040.722 
+ 201 ; KSP.Gemah Ripah Loh Jinawi Bondalem ; Desa Bondalem ; Tejakula ; 004430/BH/M.KUKM/VI/2017 ;14/06/2017; 1 ; - ; 66 ; - ;30/3/2024; 2 ; 1 ; 130.554.793 ; 310.976.758 ; 377.730.351 ; 3.012.798 ; 441.531.551 
+ 202 ; KSP. Widya Sari Sejahtera ; Desa Bengkel ; Busungbiu ; 004443/BH/M.KUKM/VI/2017 ;14/06/2017; 1 ; - ; 87 ; - ;19/02/2024; 3 ; - ; 398.047.405 ; 447.234.041 ; 826.250.000 ; 76.757.600 ; 845.281.446 
+ 203 ; KSP.Maha Karya Abadi ; Desa Sambangan ; Sukasada ; 004445/BH/M/KUKM/VI/2017 ;14/06/2017; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 204 ; KSP.Mitra Makmur Mandiri Singaraja ; Kel. Penarukan ; Buleleng ; 004446/BH/M.KUKM/VI/2017 ;14/06/2017; 1 ; - ; 129 ; 1 ;01/03/2026; 4 ; - ; 474.886.556 ; 1.110.260.348 ; 1.004.213.090 ; 31.728.290 ; 1.585.146.904 
+ 205 ; KSP.Sapta Sedana Murti ; Desa Bondalem ; Tejakula ; 004489/BH/M.KUKM/VI/2017 ;19/06/2017; 1 ; - ; 365 ; 1 ;25/03/2026; 4 ; 1 ; 182.594.407 ; 966.827.152 ; 597.974.600 ; 2.417.704 ; 1.149.421.559 
+ 206 ; KSP.Astiti Bhakti Utama ; Kel. Banjar Jawa ; Buleleng ; 004806/BH/M.KUKM/VII/2017 ;25/07/2017; 1 ; - ; 67 ; - ;14/03/2025; 4 ; - ; 189.954.471 ; 123.456.815 ; 231.399.750 ; 716.857 ; 313.411.286 
+ 207 ; KSP. Dharma Kerti Mandiri ; Desa Unggahan ; Seririt ; 005199/BH/.M.KUKM.2/IX/2017 ;12/09/2017; 1 ; - ; 44 ; - ;26/02/2019; 4 ; - ; 195.225.292 ; 853.903.307 ; 857.350.000 ; 10.398.401 ; 1.049.128.599 
+ 208 ; KSP. Taman Bhuana Sari ; Desa Panji ; Sukasada ; 006483/BH/M.KUKM.2/XII/2017 ;07/12/2017; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 209 ; KSP. Guna Nadi Luwih ; Desa Bengkel ; Busungbiu ; 006484/BH/M.KUKM.2/XII/2017 ;07/12/2017; 1 ; - ; 207 ; - ;25/1/2024; 2 ; - ; 1.203.411.977 ; 2.600.298.706 ; 2.003.790.000 ; 15.858.730 ; 3.803.710.683 
+ 210 ; KSP. Artha Maha Semaya ; Kel. Banyuning ; Buleleng ; 007285/BH/M.KUKM.2/II/2018 ;06/02/2018; 1 ; - ; 81 ; - ;15/03/2020; 1 ; - ; 54.641.964 ; 74.595.954 ; 32.500.000 ; 8.647.862 ; 129.237.918 
+ 211 ; KSP. Sumber Arta Mulya ; Desa Panji ; Sukasada ; 007286/BH/M.KUKM.2/II/2018 ;06/02/2018; 1 ; - ; 37 ; - ;08/06/2019; 2 ; - ; 211.495.750 ; - ; 170.373.750 ; 5.798.250 ; 211.495.750 
+ 212 ; KSP. Sunaran Bhuana Sedana ; Desa Sanggalangit ; Gerokgak ; 007552/BH/M.KUKM.2/II/2018 ;28/02/2018; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 213 ; KSP. Artha Krama Asri ; Kel. Banyuasri ; Buleleng ; 008048/BH/M.KUKM.2/IV/2018 ;09/04/2018; 1 ; - ; 100 ; 1 ;07/02/2026; - ; - ; 285.836.177 ; 491.855.022 ; 457.354.225 ; 17.278.470 ; 777.691.199 
+ 214 ; KSP. Sedana Dharma Ita ; Desa Bungkulan ; Sawan ; 008098/BH/M.KUKM.2/IV/2018 ;11/04/2018; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 215 ; KSP. Sedana Murti Yadnya Wisesa ; Sawan ; Sawan ; 008694/BH/M.KUKM.2/VI/2018 ;05/06/2018; 1 ; - ; 62 ; - ;19/10/2020; 5 ; - ; (8.469.987); 182.323.500 ; 60.168.000 ; (56.860.987); 173.853.513 
+ 216 ; KSP. Mega Artha Rahayu ; Desa Sambangan ; Sukasada ; 00872/BH/M.KUKM.2/IV/2018 ;05/06/2018; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 217 ; KSP. Tunas Jaya Pumahan ; Desa Gitgit ; Sukasada ; 008849/BH/M.KUKM.2/VII/2018 ;04/07/2018; 1 ; - ; 76 ; - ;29/04/2025; 1 ; - ; 54.740.000 ; 50.345.000 ; 60.250.000 ; 3.600.000 ; 105.085.000 
+ 218 ; KSP. Amrita Citta Sanjiwani ; Desa Selat ; Sukasada ; 009208/BH/M.KUKM.2/VIII/2018 ;02/08/2018; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 219 ; KSP. Karya Adil Sejahtera ; Desa Kaliasem ; Banjar ; 009715/BH/M.KUKM.2/IX/2018 ;26/09/2018; 1 ; - ; 22 ; - ;21/04/2019; 3 ; - ; 7.222.246 ; 45.763.500 ; 83.845.000 ; 22.246 ; 52.985.746 
+ 220 ; KSP. Bali Shanti Mandiri ; Desa Alas Angker ; Buleleng ; 011330/BH/M.KUKM.2/XII/2018 ;21/12/2018; 1 ; - ; 80 ; 1 ;11/03/2026; 1 ; - ; 145.189.000 ; 32.874.000 ; 402.700.000 ; 11.327.000 ; 178.063.000 
+ 221 ; KSP. Bali Jaya Abadi ; Kel. Banyuning ; Buleleng ; 011331/BH/M.KUKM.2/XII/2018 ;21/12/2018; 1 ; - ; 566 ; 1 ;11/03/2026; 3 ; - ; 1.463.881.519 ; 16.818.373 ; 1.262.740.700 ; 55.406.700 ; 1.480.699.892 
+ 222 ; Koperasi Simpan Pinjam Harsadi Mandiri Jaya ; Desa Musi ; Gerokgak ; 012736/BH/M.KUKM.2/III/2019 ;18/03/2019; 1 ; - ; 381 ; 1 ;15/02/2026; 4 ; - ; 253.709.996 ; 974.838.063 ; 639.600.000 ; 20.011.030 ; 1.228.548.059 
+ 223 ; Koperasi Simpan Pinjam Sari Rahayu Nadi Sejahtera ; Desa Pejarakan ; Gerokgak ; 012780/BH/M.KUKM.2/III/2019 ;25/03/2019; 1 ; - ; 558 ; 1 ;24/01/2026; 9 ; - ; 1.054.474.703 ; 2.181.062.549 ; 2.777.156.552 ; 18.269.407 ; 3.235.537.252 
+ 224 ; Koperasi Simpan Pinjam Amertha Sedhana Yogha ; Desa Pengulon ; Gerokgak ; 012735/BH/M.KUKM.2/III/2019 ;18/03/2019; 1 ; - ; 27 ; - ;19/01/2020; - ; - ; 61.900.000 ; 1.703.884.968 ; 1.212.851.994 ; 2.500.000 ; 1.765.784.968 
+ 225 ; Koperasi Simpan Pinjam Taman Rama Sejahtera ; Desa Temukus ; Banjar ; 012734/BH/M.KUKM.2/III/2019 ;18/03/2019; 1 ; - ; 404 ; 1 ;12/02/2026; 3 ; 1 ; 904.719.572 ; 1.744.408.493 ; 2.756.150.000 ; 143.564.370 ; 2.649.128.065 
+ 226 ; Koperasi Simpan Pinjam Wahana Dana Bhakti ; Desa Bukti ; Kubutambahan ; 013094/BH/M.KUKM.2/IV/2019 ;15/04/2019; 1 ; - ; 282 ; 1 ;31/01/2026; 2 ; - ; 324.495.581 ; 661.013.383 ; 845.909.199 ; 14.193.062 ; 985.508.964 
+ 227 ; Koperasi Simpan Pinjam Gadug Jaya Sejahtera ; Desa Bontihing ; Kubutambahan ; 013095/BH/M.KUKM.2/IV/2019 ;15/04/2019; 1 ; - ; 25 ; - ;30/04/2025; 4 ; 1 ; 416.874.058 ; 660.142.424 ; 580.344.000 ; 25.355.600 ; 1.077.016.482 
+ 228 ; Koperasi Simpan Pinjam Teja Karya Mandiri ; Desa Gerokgak ; Gerokgak ; AHU-0003288.AH.01.26,TAHUN 2020 ;16/04/2020; 1 ; - ; 25 ; - ;30/03/2023; 2 ; - ; 57.260.081 ; 22.386.297 ; 50.000.000 ; 1.660.081 ; 79.646.378 
+ 229 ; Koperasi Simpan Pinjam Putra Mas Utama ; Kerobokan ; Sawan ; AHU-0004079.AH.01.26.TAHUN 2020 ;07/07/2020; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 230 ; Koperasi Simpan Pinjam Maju Mapan Mandiri Sejahtera ; Kayu Putih ; Banjar ; AHU-0007264.AH.01.26.TAHUN 2020 ;15/12/2020; 1 ; - ; 827 ; - ;12/11/2024; 5 ; - ; 254.190.824 ; 1.421.242.343 ; 1.265.587.000 ; 26.938.622 ; 1.675.433.167 
+ 233 ; KPN. Ikhlas ; Kel. Kampung bugis ; Buleleng ; 191/BH/PAD/KWK 22/III/1996 ;26/03/1996; 1 ; - ; 412 ; 1 ;24/02/2026; 2 ; - ; 8.443.047.132 ; 976.337.216 ; 8.982.994.785 ; 166.574.445 ; 9.419.384.348 
+ 234 ; KPN. Angkasa ; Banjar Jawa ; Buleleng ; 179/BH/PAD/KWK 22/III/1996 ;26/03/1996; 1 ; - ; 62 ; 1 ;13/03/2026; 1 ; - ; 683.519.728 ; 148.987.264 ; 731.673.606 ; 34.609.310 ; 832.506.992 
+ 235 ; KPN. Wiyata ; Kel. Astina ; Buleleng ; 178/BH/PAD/KWK 22/III/1996 ;26/03/1996; 1 ; - ; 190 ; 1 ;14/01/2026; 3 ; - ; 5.737.307.248 ; 637.303.248 ; 5.340.576.800 ; 98.307.768 ; 6.374.610.496 
+ 236 ; KPN. Sada ; Kel. Sukasada ; Sukasada ; 189/BH/PAD/KWK 22/III/1996 ;26/03/1996; 1 ; - ; 472 ; 1 ;30/01/2026; 2 ; - ; 4.502.292.711 ; 347.018.048 ; 3.629.777.482 ; 205.490.643 ; 4.849.310.759 
+ 237 ; KPN. Praja Kerta Buana ; Desa Tejakula ; Tejakula ; 186/BH/PAD/KWK 22/III/1996 ;26/03/1996; 1 ; - ; 115 ; 1 ;23/04/2026; 1 ; - ; 342.212.945 ; 79.049.140 ; 274.833.454 ; 1.465.638 ; 421.262.085 
+ 238 ; KPN. Bhakti Husada ; Kel. Astina ; Buleleng ; 263/BH/PAD/KWK 22/III/1996 ;27/03/1996; 1 ; - ; 737 ; 1 ;25/02/2026; 3 ; - ; 12.623.836.960 ; 898.726.314 ; 5.041.578.000 ; 978.090.234 ; 13.522.563.274 
+ 239 ; KPN. Hita Karana ; Desa Tukadmungga ; Buleleng ; 181/H/PAD/KWK 22/III/1996 ;26/03/1996; 1 ; - ; 24 ; - ;28/05/2025; 1 ; - ; 539.692.736 ; 437.922.021 ; 497.539.038 ; 24.740.066 ; 977.614.757 
+ 240 ; KPN. Artha Sadhana ; Desa Banjar ; Banjar ; 180/BH/PAD/KWK 22/III/1996 ;26/03/1996; 1 ; - ; 402 ; 1 ;25/01/2026; 2 ; - ; 5.038.581.109 ; 169.248.549 ; 4.984.226.015 ; 111.594.028 ; 5.207.829.658 
+ 241 ; KPN. Abhyudaya ; Kel. Banjar Jawa ; Buleleng ; 260/BH/PAD/KWK 22/III/1996 ;27/03/1996; 1 ; - ; 86 ; 1 ;31/01/2026; 1 ; - ; 6.332.983.778 ; 131.510.539 ; 8.374.530.713 ; 366.426.872 ; 6.464.494.317 
+ 242 ; KPN. Harta Nadi ; Sambangan ; Sukasada ; 259/BH/PAD/KWK 22/III/1996 ;27/03/1996; 1 ; - ; 57 ; 1 ;24/01/2026; - ; - ; 1.241.247.999 ; 291.334.079 ; 1.137.271.000 ; 103.552.935 ; 1.532.582.078 
+ 243 ; KPN. Mina Bahari ; kel. Kaliuntu ; Buleleng ; 13/BH/PAD/Diskop/VII/2002 ;10/07/2002; 1 ; - ; 69 ; 1 ;27/02/2026; 2 ; - ; 584.304.040 ; 118.335.744 ; 398.251.279 ; 23.840.399 ; 702.639.784 
+ 244 ; KPN. Niaga Artha Sari ; Kel, Kaliuntu ; Buleleng ; 257/BH/PAD/KWK 22/III/1996 ;27/03/1996; 1 ; - ; 119 ; 1 ;31/03/2026; - ; - ; 39.029.900 ; 1.818.600 ; 10.950.000 ; 425.500 ; 40.848.500 
+ 245 ; KPN. Setia Budhi ; Kel.Banyuning ; Buleleng ; 256/BH/PAD/KWK 22/III/1996 ;27/03/1996; 1 ; - ; 338 ; 1 ;20/01/2026; 3 ; 1 ; 4.778.568.588 ; 4.752.724.289 ; 5.471.131.099 ; 119.289.090 ; 9.531.292.877 
+ 246 ; KPN. Praja Mukti ; Kel. Astina ; Buleleng ; 262/BH/PAD/KWK 22/III/1996 ;27/03/1996; 1 ; - ; 360 ; 1 ;20/02/2026; 6 ; 1 ; 6.431.423.758 ; 4.787.066.924 ; 420.535.725 ; 415.238.468 ; 11.218.490.682 
+ 247 ; KPN. Kuwera ; Kel. Kaliuntu ; Buleleng ; 119/BH/PAD/KWK 22/III/1996 ;26/03/1996; 1 ; - ; 875 ; 1 ;13/03/2026; 4 ; - ; 32.615.952.289 ; 73.050.088.900 ; 90.049.892.300 ; 2.175.228.591 ; 105.666.041.189 
+ 248 ; KPN. Susila Bhakti ; Desa Sangsit ; Sawan ; 80/BH/PAD/KWK 22/III/1996 ;25/03/1996; 1 ; - ; 227 ; 1 ;08/02/2026; 3 ; - ; 1.899.323.641 ; 255.882.140 ; 968.329.053 ; 8.376.659 ; 2.155.205.781 
+ 249 ; KPN. Pengayoman ; Kel. Paket Agung ; Buleleng ; 75/BH/PAD/KWK 22/III/1996 ;25/03/1996; 1 ; - ; 79 ; 1 ;27/02/2026; - ; - ; 1.716.273.937 ; 962.115.716 ; 1.752.999.935 ; 115.790.770 ; 2.678.389.653 
+ 250 ; KPN. Sutha Kerti ; Desa Kubutambahan ; Kubutambahan ; 184/BH/PAD/KWK 22/III/1996 ;26/03/1996; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 251 ; KPN. Agraria ; Kel. Kaliuntu ; Buleleng ; 188/BH/PAD/KWK 22/III/1996 ;26/03/1996; 1 ; - ; 65 ; - ;19/01/2024; - ; - ; 1.441.357.836 ; 374.956.800 ; 1.334.100.000 ; 115.659.614 ; 1.816.314.636 
+ 252 ; KPN. Balidita ; Desa Penyabangan ; Gerokgak ; 22/BH/PAD/KWK 22/II/1997 ;14/02/1997; 1 ; - ; 94 ; - ;19/03/2025; 2 ; - ; 1.915.983.648 ; 1.128.634.209 ; 1.765.822.384 ; 79.074.913 ; 3.044.617.857 
+ 253 ; KPN. Werdhi Sedana ; Kel. Penarukan ; Buleleng ; 91/BH/PAD/KWK 22/III/1997 ;31/03/1997; 1 ; - ; 85 ; - ;16/02/2024; 2 ; - ; 750.466.727 ; 1.064.027.637 ; 1.721.208.551 ; 42.056.997 ; 1.814.494.364 
+ 254 ; KPN. Mahayu Warga ; Kel. Banyuasri ; Buleleng ; 261/BH/PAD/KWK 22/III/1996 ;27/03/1996; 1 ; - ; 144 ; 1 ;13/03/2026; 3 ; 1 ; 879.218.214 ; 925.407.892 ; 1.254.431.677 ; 29.803.126 ; 1.804.626.106 
+ 255 ; KPN. Satya Dharma ; Kel. Kampung Bugis ; Buleleng ; 65/BH/PAD/KWK 22/III/1997 ;27/03/1997; 1 ; - ; 57 ; - ;14/04/2018; 1 ; - ; 706.709.573 ; 706.709.573 ; 1.012.892.278 ; 659.195.000 ; 1.413.419.146 
+ 256 ; KPN. Rupekes ; Kel. Kendran ; Buleleng ; 271/BH/PAD/KWK 22/III/1996 ;27/03/1996; 1 ; - ; 486 ; 1 ;13/02/2026; 8 ; - ; 1.071.229.089 ; 132.243.349 ; 953.181.922 ; (126.305.734); 1.203.472.438 
+ 257 ; KPN. Sarwa Nadi ; Kel. Kaliuntu  ; Buleleng ; 71/BH/PAD/KWK 22/III/1997 ;26/03/1997; 1 ; - ; 122 ; 1 ;20/04/2026; - ; - ; 2.205.525.891 ; 694.128.253 ; 2.496.304.300 ; 76.088.683 ; 2.899.654.144 
+ 258 ; KPN. Swakarya ; Kel. Banjar Jawa ; Buleleng ; 57/BH/PAD/KWK 22/III/1997 ;26/03/1997; 1 ; - ; 93 ; 1 ;27/02/2026; - ; - ; 919.519.837 ; 22.790.509 ; 799.874.939 ; 24.613.436 ; 942.310.346 
+ 259 ; KPN. Dana Paramita ; Desa Seririt ; Seririt ; 41/BH/PAD/KWK 22/II/1997 ;14/02/1997; 1 ; - ; 49 ; 1 ;18/02/2026; 1 ; - ; 727.444.516 ; 44.228.887 ; 626.026.000 ; 13.438.324 ; 771.673.403 
+ 260 ; KPN. Patiunus ; Kel. Banyuasri ; Buleleng ; 438A/BH/PAD/KWK 22/V/1996 ;08/05/1996; 1 ; - ; 60 ; 1 ;20/02/2026; 1 ; - ; 1.004.096.028 ; 149.701.725 ; 897.643.598 ; 19.034.539 ; 1.153.797.753 
+ 261 ; KPN. Widya Karma ; Desa Tejakula ; Tejakula ; 79/BH/PAD/KWK 22/III/1996 ;25/03/1996; 1 ; - ; 120 ; 1 ;15/02/2026; 5 ; 1 ; 2.128.846.768 ; 588.597.725 ; 721.980.453 ; (15.186.473); 2.717.444.493 
+ 262 ; KPN. Dharma Praja ; Desa Sangsit ; Sawan ; 23/BH/PAD/KWK 22/II/1997 ;14/02/1997; 1 ; - ; 146 ; 1 ;14/02/2026; 1 ; - ; 591.234.716 ; 66.054.675 ; 456.675.000 ; 13.300.560 ; 657.289.391 
+ 263 ; KPN. Artha Sanggraha Adiguna ; Desa Banjar Asem ; Seririt ; 229/BH/PAD/KWK 22/II/1996 ;14/02/1997; 1 ; - ; 32 ; - ;05/07/2021; - ; - ; 812.211.159 ; 788.515.738 ; 782.864.690 ; 107.776.266 ; 1.600.726.897 
+ 264 ; KPN. Dharma Yasa ; Desa Patas ; Gerokgak ; 05/BH/PAD/KWK 22./II/1996 ;05/02/1996; 1 ; - ; 154 ; - ;14/06/2025; 3 ; - ; 1.505.119.383 ; 307.462.354 ; 1.632.692.367 ; (15.621.768); 1.812.581.737 
+ 265 ; KPN. Werdhi Yasa ; Kel. Banjar Tegal ; Buleleng ; 76/BH/PAD/KWK 22.1/III/1996 ;25/03/1996; 1 ; - ; 505 ; 1 ;31/01/2026; 7 ; - ; 6.965.887.749 ; 6.875.653.811 ; 12.179.994.388 ; 139.893.661 ; 13.841.541.560 
+ 266 ; KPN. Rare Angon ; Kel. Kaliuntu ; Buleleng ; 77/BH/PAD/KWK 22/III/1996 ;25/03/1996; 1 ; - ; 46 ; 1 ;13/04/2026; 1 ; - ; 234.863.018 ; 101.063.824 ; 302.148.092 ; 4.052.893 ; 335.926.842 
+ 267 ; KPN. Susila Dharma ; Desa Seririt ; Seririt ; 78/BH/PAD/KWK 22/III/1996 ;25/03/1996; 1 ; - ; 152 ; - ;03/06/2021; 3 ; - ; 1.941.571.648 ; 52.823.245 ; 969.379.186 ; 20.781.529 ; 1.994.394.893 
+ 268 ; KPN. Bahagia ; Desa Gerokgak ; Gerokgak ; 264/BH/PAD/KWK 22/III/1996 ;27/03/1996; 1 ; - ; 34 ; - ;27/3/2022; - ; - ; 128.473.499 ; 438.277.159 ; 266.746.660 ; 14.155.292 ; 566.750.658 
+ 269 ; KPN. Sejahtera ; Desa Busungbiu ; Busungbiu ; 84/BH/PAD/KWK 22/III/1996 ;25/03/1996; 1 ; - ; 194 ; 1 ;24/01/2026; 3 ; - ; 3.161.766.279 ; 578.662.112 ; 2.733.433.919 ; 25.719.347 ; 3.740.428.391 
+ 270 ; KPN. Dharma Krya ; Kel Sukasada ; Sukasada ; 83/BH/PAD/KWK.22/III/1996 ;25/03/1996; 1 ; - ; 67 ; 1 ;24/01/2026; - ; - ; 856.137.465 ; 314.539.089 ; 726.907.740 ; 52.504.209 ; 1.170.676.554 
+ 271 ; KPRI. Kembang Kenanga ; Kel. Banjar Tegal ; Buleleng ; 82/BH/PAD/Diskop/IX/2010 ;02/09/2010; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 272 ; Kopkar. Karya Mandiri ; Kel. Kampung Anyar ; Buleleng ; 11/BH/DISKOP/X/2003 ;08/10/2003; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 273 ; Kopkar. Eka Sedana ; Kel Banyuasri ; Buleleng ; 96/BH/PAD/KWK 22/III/1997 ;23/03/1997; 1 ; - ; 96 ; 1 ;16/03/2026; 3 ; - ; 1.105.184.573 ; 1.467.946.965 ; 1.893.363.618 ; 69.997.889 ; 2.573.131.538 
+ 274 ; Kopkar. Tirta Asih ; Kel. Kampung Kajanan ; Buleleng ; 183/BH/PAD/KWK 22/III/1996 ;26/03/1996; 1 ; - ; 365 ; 1 ;31/03/2026; 3 ; 1 ; 4.325.032.083 ; 6.162.815.869 ; 9.450.891.159 ; 60.691.357 ; 10.487.847.952 
+ 275 ; Kopkar. TKBM ; Desa Celukan bawang ; Gerokgak ; 81/BH/PAD/KWK 22/III/1996 ;25/03/1996; 1 ; - ; 743 ; 1 ;15/04/2026; 1 ; - ; 991.235.679 ; 79.602.415 ; 582.323.921 ; 55.364.631 ; 1.070.838.094 
+ 276 ; Kopkar. Universitas Panji Sakti ; Kel. Banjar Tegal ; Buleleng ; 177/BH/PAD/KWK 22/III/1996 ;26/03/1996; 1 ; - ; 83 ; 1 ;13/03/2026; - ; - ; 509.734.586 ; 360.309.330 ; 774.909.700 ; 30.937.150 ; 870.043.916 
+ 277 ; Kopkar. Kopegtel ; Kel. Banjar Jawa ; Buleleng ; 187/BH/PAD/KWK 22/III/1996 ;26/03/1996; 1 ; - ; 40 ; 1 ;31/01/2026; 6 ; 1 ; 833.442.893 ; 1.083.757.668 ; 239.131.959 ; 32.405.570 ; 1.917.200.561 
+ 278 ; Kopkar. Adhi Guna ; Kel. Kaliuntu ; Buleleng ; 1274/BH/VI/1993 ;29/06/1993; 1 ; - ; 104 ; 1 ;13/02/2026; 2 ; - ; 778.106.352 ; 1.358.511 ; 764.565.000 ; 31.348.997 ; 779.464.863 
+ 279 ; Kopkar. Bina Artha Bersama ; Kel. Banjar Jawa ; Buleleng ; 19/BH/V/1995 ;23/05/1995; 1 ; - ; 240 ; 1 ;20/04/2026; 3 ; - ; 2.072.519.691 ; 643.322.820 ; 2.350.438.798 ; 296.766.681 ; 2.715.842.511 
+ 280 ; Kopkar. Kertha Usada ; Kel. Kaliuntu ; Buleleng ; 19/BH/KWK 22/VI/97 ;12/06/1997; 1 ; - ; 487 ; 1 ;20/02/2026; - ; - ; 3.545.580.201 ; 189.505.319 ; 3.086.018.141 ; 143.090.770 ; 3.735.085.520 
+ 281 ; Kopkar. Bali Handara Kosaido ; Desa Pancasari ; Sukasada ; 10/BH/PAD/KDK 22.1/IX/1999 ;08/09/1999; 1 ; - ; 87 ; 1 ;02/03/2026; - ; - ; 490.099.612 ; 285.066.992 ; 480.948.476 ; 56.727.872 ; 775.166.604 
+ 282 ; Kopkar. Primkoppos ; Kel. Banjar Jawa ; Buleleng ; 347/BH/PAD/KWK 22/III/1996 ;28/03/1998; 1 ; - ; 80 ; 1 ;13/02/2026; - ; - ; 977.324.768 ; 190.429.212 ; 1.064.965.400 ; 111.868.689 ; 1.167.753.980 
+ 283 ; Koperasi Jasa Puspa Sari Perdana  ; Kel. Kendran ; Buleleng ; 11/BH/KWK.22/III/1997 ;14/03/1997; 1 ; - ; 27 ; - ;22/03/2024; - ; - ; 184.001.050 ; 14.004.450 ; 15.000.000 ; 534.000 ; 198.005.500 
+ 284 ; Kopkar. Swadarma ; Kel. Kampung Baru ; Buleleng ; 18/BH/Disperindagkop/VIII/2005 ;30/08/2005; 1 ; - ; 125 ; 1 ;16/03/2026; 2 ; 1 ; 2.120.104.596 ; 150.145.548 ; 1.972.464.764 ; 161.741.184 ; 2.270.250.144 
+ 285 ; Kopkar. Tirta Jaya ; Kel. Kampung Bugis ; Buleleng ; 31/BH/XXVII. 3/VI/2008 ;09/06/2008; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 286 ; Koptan. Tumbuh Mekar ; Desa Joanyar ; Seririt ; 01/BH/KDK22.1/II/1999 ;15/02/1999; 1 ; - ; 113 ; - ;01/07/2019; 1 ; - ; 144.149.526 ; 248.513.406 ; 308.725.275 ; 2.088.700 ; 392.662.932 
+ 287 ; Koptan. Sri Rahayu ; Kel. Penarukan ; Buleleng ; 03/BH/KDK.22. 1/III/1999 ;26/03/1999; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 288 ; Koptan. Tumpang Sari ; Desa Runuh Kubu ; Sukasada ; 15/BH/Diskop/XII/2003 ;05/12/2003; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 289 ; Koptan. Banyu Urip ; Desa Umeanyar ; Seririt ; 04/BH/Diskop/VII/2003 ;14/07/2003; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 290 ; Koptan. Satya Jaya ; Desa Kerobokan ; Sawan ; 08/BH/KDK 22.1/VIII/1999 ;24/08/1999; 1 ; - ; 70 ; - ;23/06/2019; 2 ; - ; 168.029.351 ; 132.434.245 ; 230.985.250 ; 8.838.183 ; 300.463.596 
+ 291 ; Koptan. Tirta Amerta ; Desa Pacung ; Tejakula ; 55/BH/Disperindagkop/XII/2006 ;18/12/2006; 1 ; - ; 81 ; 1 ;18/01/2026; 2 ; - ; 335.159.736 ; 506.208.850 ; 676.471.500 ; 38.161.976 ; 841.368.586 
+ 292 ; Koptan. Duta Kartika Kencana ; Desa Panji ; Sukasada ; 33/BH/XXVII. 3/VI/2008 ;17/06/2008; 1 ; - ; 1.658 ; 1 ;24/01/2026; 7 ; 1 ; 1.196.629.791 ; 16.649.431.546 ; 9.003.325.118 ; 66.428.868 ; 17.846.061.337 
+ 293 ; Koptan. Swakarsa Subak Gede ; Desa Padangbulia ; Sukasada ; 04/BH/KDK 22.1/VII/2000 ;27/07/2000; 1 ; - ; 244 ; 1 ;21/01/2026; 2 ; - ; 715.358.273 ; 649.315.853 ; 448.267.671 ; 8.700.980 ; 1.364.674.126 
+ 294 ; Koptan. Panca Winangun ; Kel. Sukasada ; Sukasada ; 43/BH/XXVII. 3/XII/2008 ;23/12/2008; 1 ; - ; 64 ; - ;28/02/2025; - ; - ; 136.708.294 ; 112.944.456 ; 93.807.000 ; 7.751.460 ; 249.652.750 
+ 295 ; Koptan. Tri Amerta Nadi ; Desa Cempaga ; Banjar ; 06/BH/XXVII.3/VI/2011 ;27/06/2011; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 296 ; Koptan. Unggas Dewata ; Desa Sawan ; Sawan ; 12/BH/XXVII.3/IX/2012 ;17/09/2012; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 297 ; Koptan. Nandini ; Desa Giri Mas ; Sawan ; 26/BH/XXVII.3/IX/2015 ;14/09/2015; 1 ; - ; 35 ; - ;31/5/2021; 2 ; - ; 40.409.544 ; 2.035.531 ; 310.603.000 ; 11.484.250 ; 42.445.075 
+ 298 ; Koptan. Kerta Darma Yasa ; Desa Tukadmungga ; Buleleng ; 14/BH/XXVII.3/IV/2016 ;08/04/2016; 1 ; - ; 37 ; 1 ;15/04/2026; - ; - ; 106.059.820 ; 245.821.564 ; 349.650.000 ; 3.713.950 ; 351.881.384 
+ 299 ; Koptan. KAO Sapta Winangun Kerti ; Desa Wanagiri ; Sukasada ; 10/BH/XXVII.3/IV/2016 ;08/04/2016; 1 ; - ; 275 ; - ;25/03/2025; - ; - ; 31.840.000 ; 390.000 ; - ; 7.950.000 ; 32.230.000 
+ 300 ; Koptan. Karya Amertha Sari ; Desa Tista ; Busungbiu ; 06/BH/XXVII.3/III/2016 ;31/03/2016; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 301 ; Koptan. Subak Tegak Amerta Sari ; Desa Gerokgak ; Gerokgak ; 13/BH/XXVII.3/IV/2016 ;08/04/2016; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 302 ; Koptan. Lestari Hijau Daun ; Desa Gobleg ; Banjar ; 002231/BH/M.KUKM.2/IX/2016 ;26/09/2016; 1 ; - ; 43 ; - ;31/1/2021; 3 ; - ; 91.156.058 ; 99.756.742 ; 172.124.000 ; 417.950 ; 190.912.800 
+ 303 ; Kopwan. Mas Ayu Lestari ; Kel. Banyuning ; Buleleng ; 16/BH/XXVII. 3/XII/2007 ;27/12/2007; 1 ; - ; 27 ; - ;13/04/2018; - ; - ; 62.010.562 ; 14.539.301 ; 44.157.000 ; 2.045.500 ; 76.549.863 
+ 304 ; Kopwan. Srikandi ; Kel. Astina ; Buleleng ; 25/BH/PAD/KWK 22/II/1997 ;15/02/1997; 1 ; - ; 277 ; 1 ;27/02/2026; 1 ; - ; 2.239.562.505 ; 324.105.506 ; 1.598.501.550 ; 105.664.443 ; 2.563.668.011 
+ 305 ; Kopwan. Az Zahrah ; Kel. Banjar Bali ; Buleleng ; 41/BH/XXVII. 3/X/2008 ;31/10/2008; 1 ; - ; 134 ; - ;17/05/2025; - ; - ; 44.073.000 ; 35.230.000 ; 59.830.000 ; 1.807.000 ; 79.303.000 
+ 306 ; Kopwan. Amertha Giri ; Desa Pancasari ; Sukasada ; 57/BH/XXVII. 3/XI/2009 ;30/11/2009; 1 ; - ; 121 ; - ;24/03/2025; 1 ; - ; 274.144.790 ; 1.387.569.443 ; 1.277.352.020 ; 7.421.000 ; 1.661.714.233 
+ 307 ; Kopwan. Bhakti Kartini ; Desa Kerobokan ; Sawan ; 60/BH/XXVII.3/XII/2009 ;28/12/2009; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 308 ; Kopwan. Sari Artha Guna ; Desa Pemaron ; Buleleng ; 01/BH/XXVII.3/I/2012 ;12/01/2012; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 309 ; Kopwan. Ikhlas Fadhilah ; Desa Pejarakan ; Gerokgak ; 11/BH/XXVII.3/V/2015 ;20/05/2015; - ; 1 ; 284 ; - ;11/02/2019; 2 ; - ; 4.410.119.019 ; 461.393.612 ; 4.768.989.243 ; 475.976.611 ; 4.871.512.631 
+ 310 ; Kopdit. Tirta Raharja ; Kel. Banjar Tegal ; Buleleng ; 07/BH/XXVII. 3/VI/2007 ;13/06/2007; 1 ; - ; 63 ; 1 ;14/02/2026; - ; - ; 601.319.168 ; 151.921.738 ; 363.221.734 ; 19.112.049 ; 753.240.906 
+ 311 ; Primkopad Secata Rindam IX Udayana ; Kel. Penarukan ; Buleleng ; 12/BH/Diskop/VII/2004 ;19/07/2004; 1 ; - ; 113 ; 1 ;31/01/2026; - ; - ; 689.953.509 ; 220.017.113 ; 1.431.876.970 ; 65.877.423 ; 909.970.622 
+ 312 ; Primkoppad. Kodim 1609 / Buleleng ; Kel. Br. Bali ; Buleleng ; 02/BH/XXVII.3/I/2012 ;30/01/2012; 1 ; - ; 267 ; 1 ;11/02/2026; 3 ; - ; 622.376.556 ; 4.836.935 ; 286.559.800 ; 20.705.143 ; 627.213.491 
+ 313 ; Primkop Kartika Wirottama ; Kel. Banyuasri ; Buleleng ; 13/BH/PAD/XXVII.3/VIII/2011 ;12/08/2011; 1 ; - ; 554 ; - ;21/04/2025; 4 ; - ; 701.832.046 ; 82.475.000 ; 616.515.085 ; 29.860.164 ; 784.307.046 
+ 314 ; Primkoppol SPN Singaraja ; Kel. Banyuasri ; Buleleng ; 133/BH/PAD/KWK 22/III/1996 ;26/03/1996; 1 ; - ; 161 ; 1 ;14/01/2026; 5 ; - ; 2.278.059.680 ; 487.705.036 ; 1.525.117.100 ; 77.049.429 ; 2.765.764.716 
+ 315 ; Primkoppol Resort Buleleng ; Kel. Banyuning ; Buleleng ; 436A/BH/PAD/KWK 22/IV/1996 ;24/04/1996; 1 ; - ; 1.014 ; 1 ;06/02/2026; 5 ; - ; 17.476.898.873 ; 789.576.824 ; 11.707.038.550 ; 431.329.225 ; 18.266.475.697 
+ 316 ; Primkopabri Bina Sejahtera ; Kel. Banjar Tegal ; Buleleng ; 82/BH/PAD/KWK 22/III/1996 ;25/03/1996; 1 ; - ; 184 ; 1 ;10/02/2026; 1 ; - ; 307.450.339 ; 92.043.889 ; 196.640.000 ; 7.486.542 ; 399.494.228 
+ 317 ; Kowaki Adi Mitra ; Kel. Banjar Tegal ; Buleleng ; 97/BH/PAD/KWK 22/III/1997 ;31/03/1997; 1 ; - ; 318 ; 1 ;11/02/2026; 2 ; - ; 746.683.196 ; 1.416.899.382 ; 1.681.071.750 ; 16.100.543 ; 2.163.582.578 
+ 318 ; Koperasi Angkutan Buleleng ; Kel. Kendran ; Buleleng ; 55/BH/PAD/KWK 22/III/1997 ;26/03/1997; 1 ; - ; 24 ; 1 ;13/04/2026; 2 ; - ; 130.416.011 ; 26.727.382 ; 61.102.500 ; 7.697.511 ; 157.143.393 
+ 319 ; Kopma STKIP Singaraja. ; Kel. Kendran ; Buleleng ; 94/BH/PAD/KWK 22/III/1997 ;31/03/1997; 1 ; - ; - ; - ;15/02/2020; - ; - ; - ; - ; - ; - ; - 
+ 320 ; Kop. Wredatama Madya ; Kel. Banjar Paketan ; Buleleng ; 176/BH/PAD/KWK 22/III/1996 ;26/03/1996; 1 ; - ; 354 ; - ;03/04/2024; 2 ; - ; 333.337.944 ; 72.891.843 ; 198.528.761 ; (250.000); 406.229.787 
+ 321 ; Koperasi PP Polri Tetap Setia ; Kel. Kampung Kajanan ; Buleleng ; 52/BH/Disperindagkop/XII/2006 ;07/12/2006; 1 ; - ; 153 ; 1 ;21/02/2026; 1 ; - ; 214.095.724 ; 36.413.633 ; 244.130.000 ; 6.185.107 ; 250.509.357 
+ 322 ; Kopas. Boga Prajahita ; Desa Bondalem ; Tejakula ; 04/BH/XXVII.3/IV/2013 ;11/04/2013; 1 ; - ; 341 ; - ;18/03/2023; 3 ; 1 ; 986.800.476 ; 467.258.500 ; 112.519.443 ; 14.462.804 ; 1.454.058.976 
+ 323 ; Kop. Matahari Bali ; Kel. Banyuning ; Buleleng ; 05/BH/XXVII.3/1/2015 ;17/02/2015; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 324 ; Koperasi Simpan Pinjam Krishna ; Desa Pajarakan ; Gerokgak ; 06/BH/XXVII.3/II/2015 ;17/02/2015; 1 ; - ; 65 ; 1 ;15/03/2026; 10 ; - ; 225.035.720 ; 4.289.769.280 ; 2.514.978.500 ; 8.571.580 ; 4.514.805.000 
+ 325 ; Kop. Mitra Yadnya ; Desa Pemuteran ; Gerokgak ; 07/BH/XXVII.3/II/2015 ;17/02/2015; 1 ; - ; 284 ; 1 ;04/03/2026; 7 ; - ; 859.686.075 ; 2.282.853.718 ; 2.545.971.945 ; 16.886.216 ; 3.142.539.793 
+ 326 ; Kop. Gasy Arta ; Desa Kubutambahan ; Kubutambahan ; 14/BH/XXVII.3/V/2015 ;30/07/2015; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 327 ; Kop. Sarining Amerta ; Desa Bungkulan ; Sawan ; 16/BH/XXVII.3/VIII/2015 ;31/08/2015; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 328 ; Kop. Karya Harta Jaya ; Kel. Bhaktiseraga ; Buleleng ; 17/BH/XXVII.3/VIII/2015 ;31/08/2015; 1 ; - ; 248 ; 1 ;11/03/2026; 2 ; - ; 1.393.555.173 ; 207.651.116 ; 1.571.745.215 ; 47.757.870 ; 1.601.206.289 
+ 329 ; Kop. Agro Tani Mandiri ; Desa Tinga-Tinga ; Gerokgak ; 19/BH/XXVII.3/VIII/2015 ;31/08/2015; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 330 ; Kop. Laksmi Murti ; Desa Banjar ; Banjar ; 21/BH/XXVII.3/VIII/2015 ;31/08/2015; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 331 ; Kop. Dana Mulia ; Desa Jagaraga ; Sawan ; 22/BH/XXVII.3/VIII/2015 ;31/08/2015; 1 ; - ; 41 ; 1 ;11/03/2026; 2 ; - ; 127.898.905 ; 373.371.743 ; 420.000.000 ; 15.230.571 ; 501.270.648 
+ 332 ; Kop. Kibarak Panji Sakti ; Desa Tukadmungga ; Buleleng ; 27/BH/XXVII.3/IX/2015 ;14/09/2015; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 333 ; Kop. Bintang Persada Indonesia ; Kel. Banyuning ; Buleleng ; 07/BH/XXVII.3/III/2016 ;31/03/2016; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 334 ; Kop. Jagad Hita Artha ; Kel. Banjar Tegal ; Buleleng ; 008047/BH/M.KUKM.2/IV/2018 ;09/04/2018; 1 ; - ; 975 ; 1 ;15/02/2026; 3 ; - ; 1.441.991.070 ; 6.996.308.180 ; 5.167.848.711 ; 23.781.163 ; 8.438.299.250 
+ 335 ; Kop. Garam Tasik Segara Lestari ; Desa Les ; Tejakula ; 002200/BH/M.KUKM.2/IX/2016 ;23/09/2016; 1 ; - ; 23 ; - ;12/02/2022; 2 ; - ; 36.409.149 ; 6.342.049 ; 14.748.000 ; 894.000 ; 42.751.198 
+ 336 ; Kop. Garam Bumi Putih Nusantara ; Desa Pejarakan ; Gerokgak ; 002205/BH/M.KUKM.2/IX/2016 ;23/09/2016; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 337 ; Kop.Produksi Bali Tani Sejahtera ; Kel. Banyuning ; Buleleng ; 004316/BH/M.KUKM.2/VI/2017 ;07/06/2017; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 338 ; Kop. Produsen Wisnu Nadi Sejahtera ; Desa Pejarakan ; Gerokgak ; 006767/BH/M.KUKM.2/I/2018 ;04/01/2018; 1 ; - ; 228 ; 1 ;13/03/2026; 7 ; 1 ; 809.886.744 ; 1.181.236.972 ; 1.501.632.490 ; 8.249.553 ; 1.991.123.716 
+ 339 ; Kop. Produsen Nandini Lestari Gerokgak ; Desa Musi ; Gerokgak ; 008848/BH/M.KUKM.2/VII/2018 ;04/07/2018; 1 ; - ; 20 ; - ;15/03/2023; 2 ; - ; 32.271.600 ; 6.325.400 ; 31.195.000 ; 3.971.000 ; 38.597.000 
+ 340 ; Kop. Produsen Bukit Sedana Nadi ; Desa Sembiran ; Tejakula ; 009714/BH/M.KUKM.2/IX/2018 ;26/09/2018; 1 ; - ; 48 ; 1 ;09/04/2026; - ; - ; 202.023.689 ; 169.032.311 ; 277.900.000 ; 18.042.525 ; 371.056.000 
+ 341 ; Kop. Produsen Bali Mountain Women's Cooperative ; Desa Munduk ; Banjar ; 010001/BH/M.KUKM.2/X/2018 ;10/08/2018; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 342 ; Kop. Produsen Mekar Sari Nadi ; Desa Pancasari ; Sukasada ; 011329/BH/M.KUKM.2/XII/2018 ;21/12/2018; 1 ; - ; 23 ; - ;27/07/2022; 1 ; - ; 242.624.244 ; 480.350.650 ; 200.000.000 ; 4.824.244 ; 722.974.894 
+ 343 ; Koperasi Produsen Barra Mundi Rakyat ; Desa Sanggalangit ; Gerokgak ; AHU-0000021,AH.01.26.TAHUN 2019 ;28/10/2019; 1 ; - ; 26 ; - ;00/01/1900; - ; - ; 78.650.000 ; - ; - ; - ; 78.650.000 
+ 344 ; Koperasi Produsen Agribisnis Tri Hita Karana ; Desa Loka Paksa ; Seririt ; 013093/BH/M.KUKM.2/IV/2019 ;15/04/2019; 1 ; - ; 26 ; - ;30/3/2024; - ; - ; 35.555.815 ; 10.969.185 ; 12.376.300 ; 307.730 ; 46.525.000 
+ 345 ; Koperasi Produsen Serikat Tani Makmur ; Banyupoh ; Banyupoh ; AHU-0001024.AH.01.26.TAHUN 2019 ;10/12/2019; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 346 ; Koperasi Produsen Ki Barak Sakti ; Kaliuntu ; Buleleng ; AHU-0009778.AH.01.26. tahun 2021 ;16/4/2021; 1 ; - ; 168 ; - ;00/01/1900; - ; - ; 20.160.000 ; - ; - ; - ; 20.160.000 
+ 347 ; Koperasi Produsen Sekar Dharma Pertiwi ; Gobleg ; Banjar ; AHU-0015588.AH.01.26.TAHUN 2022 ;15/02/2022; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 348 ; Koperasi Produsen Tani Side Ayu ; Kelurahan Penarukan ; Buleleng ; AHU-0004026.AH.01.29.TAHUN 2022 ;02/08/2022; 1 ; - ; 112 ; - ;16/03/2025; 5 ; - ; 73.025.998 ; 321.454.651 ; 292.809.250 ; 5.260.005 ; 394.480.649 
+ 349 ; Koperasi Produsen Karya Pradnya Mandiri ; Sumber Kima ; Gerokgak ; AHU-0002564.AH.01.29.TAHUN 2023 ;03/07/2023; 1 ; - ; 206 ; 1 ;24/01/2026; 2 ; - ; 600.997.552 ; 4.687.610.715 ; 3.616.599.967 ; 15.511.716 ; 5.288.608.267 
+ 350 ; Kop. Angkutan Trans Jaya Mandiri ; Desa Pejarakan ; Gerokgak ; 04/BH/XXVII.3/II/2016 ;29/02/2016; - ; 1 ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 351 ; Kopjas. Cakra Buana Sejahtera ; Desa Bubunan ; Seririt ; 005147/BH/M.KUKM.2/IX/2017 ;06/09/2017; 1 ; - ; 24 ; 1 ;01/02/2026; 2 ; - ; 61.568.038 ; 1.470.174 ; 48.000.000 ; 1.602.000 ; 63.038.212 
+ 352 ; Kop. Jasa Harta Prima Karya ; Kel. Kampung Baru ; Buleleng ; 008144/BH/M.KUKM.2/IV/2018 ;17/04/2018; 1 ; - ; 24 ; - ;20/03/2023; - ; - ; 45.607.500 ; 2.772.500 ; 25.000.000 ; 310.000 ; 48.380.000 
+ 353 ; Kop. Jasa Seroja Blambangan Sejahtera ; Desa Tukadmungga ; Buleleng ; 008451/BH/M.KUMKM.2/V/2018 ;18/05/2018; 1 ; - ; 25 ; - ;04/03/2019; 1 ; - ; 45.736.251 ; 500.000 ; 43.600.000 ; 121.251 ; 46.236.251 
+ 354 ; Kop. Jasa Dana Arta Dewata ; Desa Tukad Sumaga ; Gerokgak ; 008608/BH/M.KUKM.2/V/2018 ;28/05/2018; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 355 ; Koperasi Jasa Lovina Transport Singaraja ; Desa Kalibukbuk ; Buleleng ; AHU-0003998.AH.01.26.TAHUN 2020 ;07/01/2020; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 356 ; Kopjas. Dharma Santana Amertha ; Desa Sambangan ; Sukasada ; 004507/BH/M.KUKM.2/VI/2017 ;19/06/2017; 1 ; - ; 461 ; 1 ;14/03/2026; 9 ; 1 ; 560.582.807 ; 1.548.552.757 ; 1.957.825.373 ; 20.314.798 ; 2.109.135.564 
+ 357 ; Kop. Jasa Loka Amertha Utama ; Desa Loka Paksa ; Seririt ; 006728/BH/M.KUKM.2/I/2018 ;03/01/2018; 1 ; - ; 195 ; 1 ;28/02/2026; 17 ; - ; 692.677.256 ; 5.875.766.786 ; 4.792.367.656 ; 60.102.993 ; 6.568.444.042 
+ 358 ; Kop. Jasa Asih Punia Bhakti ; Desa Tangguwisia ; Seririt ; 008097/BH/M.KUKM.2/IV/2018 ;11/04/2018; 1 ; - ; 25 ; - ;21/1/2022; 5 ; - ; 1.899.637.322 ; 668.535.933 ; 2.555.375.710 ; 4.296.814 ; 2.568.173.255 
+ 359 ; Kop. Jasa Sukses Sejahtera Bersama Kita ; Kelurahan Penarukan ; Buleleng ; 009270/BH/M.KUKM.2/VIII/2018 ;09/08/2018; 1 ; - ; 49 ; 1 ;22/02/2026; 1 ; - ; 195.821.628 ; 195.465.538 ; 269.962.500 ; 52.815.154 ; 391.287.166 
+ 360 ; Kop. Jasa Kawistha Mitra Sejati ; Desa Kubutambahan ; Kubutambahan ; 010437/BH/M.KUKM.2/XI/2018 ;08/11/2018; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 361 ; Koperasi Jasa Yoga Artha Mulia Sejahtera ; Desa Pejarakan ; Gerokgak ; AHU-0000015.AH.01.26.TAHUN 2019 ;28/10/2019; 1 ; - ; 788 ; 1 ;11/03/2026; 6 ; 1 ; 3.468.163.431 ; 16.618.910.836 ; 13.580.106.904 ; 187.112.771 ; 20.087.074.267 
+ 362 ; Koperasi Jasa Guna Wahyu Mandiri ; Desa Sumberkima ; Gerokgak ; AHU.0000247.AH.01.26.TAHUN 2019 ;13/11/2019; 1 ; - ; 164 ; 1 ;25/03/2026; 4 ; - ; 85.895.908 ; 782.118.506 ; 468.515.000 ; 4.477.420 ; 868.014.414 
+ 363 ; Koperasi Jasa Duta Dana Mandiri ; Desa Tanguwisia ; Seririt ; 012893/BH/M.KUKM.2/III/2019 ;27/03/2019; 1 ; - ; 30 ; - ;00/01/1900; - ; - ; 38.250.000 ; - ; - ; - ; 38.250.000 
+ 364 ; Koperasi Jasa Swara Wacika Sejahtera ; Kel. Banjar Tegal ; Buleleng ; 014754/BH/M.KUKM.2/IX/2019 ;10/09/2019; 1 ; - ; 25 ; - ;00/01/1900; - ; - ; 28.250.000 ; - ; - ; - ; 28.250.000 
+ 365 ; Koperasi Jasa Surya Dana Sejahtera ; Desa Poh bergong ; Buleleng ; 014950/BH/M.KUKM.2/IX/2019 ;19/09/2019; 1 ; - ; 76 ; 1 ;14/03/2026; 4 ; 1 ; 147.284.139 ; 1.487.071.141 ; 824.679.000 ; 3.311.042 ; 1.634.355.280 
+ 366 ; Koperasi Jasa Amertha Dana Abadi ; Kel. Banyuning ; Buleleng ; 014518/BH/M.KUKM.2/VIII/2019 ;21/08/2019; 1 ; - ; 110 ; 1 ;25/03/2026; 5 ; - ; 331.333.024 ; 2.335.593.187 ; 977.132.500 ; 4.853.539 ; 2.666.926.211 
+ 367 ; Koperasi Jasa Bangun Jaya Dewata ; Kel. banyuasri ; Buleleng ; AHU-0000683.AH.01.26.TAHUN 2019 ;27/11/2019; 1 ; - ; 32 ; - ;00/01/1900; - ; - ; 164.640.000 ; - ; - ; - ; 164.640.000 
+ 368 ; Koperasi Jasa Lumbung Wibuh Artha ; Kel. Banyuning ; Buleleng ; AHU-0000527.AH.01.26.TAHUN 2019 ;22/11/2019; 1 ; - ; 550 ; 1 ;10/01/2026; 5 ; - ; 3.629.076.395 ; 5.728.178.058 ; 6.213.989.343 ; 32.168.634 ; 9.357.254.453 
+ 369 ; Koperasi Jasa Sedana Yoga Mandiri ; Desa Bahaktiseraga ; Buleleng ; 013591/BH/M.KUKM.2/V/2019 ;28/05/2019; 1 ; - ; 239 ; 1 ;21/02/2026; 6 ; - ; 2.126.774.175 ; 1.261.140.205 ; 2.503.075.506 ; 25.456.807 ; 3.387.914.380 
+ 370 ; Koperasi Jasa Dana Mitra Sehati ; Desa Bebebtin ; Sawan ; 012781/BH/M.KUKM.2/III/2019 ;25/03/2019; 1 ; - ; 44 ; - ;31/3/2024; - ; - ; 357.504.000 ; 734.350.500 ; 265.378.000 ; 84.041.000 ; 1.091.854.500 
+ 371 ; Koperasi Jasa Duta Horizon Bali ; Kelurahan Banyuasri ; Buleleng ; AHU-0004427.AH.01.26.TAHUN 2020 ;29/07/2020; 1 ; - ; 21 ; - ;12/02/2022; 2 ; 1 ; 67.096.649 ; 200.000.000 ; 215.170.828 ; 21.549.149 ; 267.096.649 
+ 372 ; Koperasi Jasa Tirta Suci Anugrah ; Tejakula ; Tejakula ; AHU-0004767.AH.01.26.TAHUN 2020 ;19/08/2020; 1 ; - ; 147 ; - ;11/02/2024; 1 ; - ; 308.425.554 ; 18.461.670 ; 101.000.000 ; 11.374.554 ; 326.887.224 
+ 373 ; Koperasi Jasa Buleleng Seamen Aliansi ; Kerobokan ; Sawan ; AHU-0005639.AH.01.26.TAHUN 2020 ;02/10/2020; 1 ; - ; 215 ; 1 ;07/03/2026; - ; 1 ; 584.180.637 ; 845.770.084 ; 1.113.455.585 ; 16.930.323 ; 1.429.950.721 
+ 374 ; Koperasi Jasa Urip Mulia Yasa ; Banyuning ; Buleleng ; AHU-0008472.ah.01.26. TAHUN 2021 ;02/10/2021; 1 ; - ; 22 ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 375 ; Koperasi Jasa Sumber Sejahtera Indonesia ; Banjar Tegal ; Buleleng ; AHU-0012536.AH.01.26.TAHUN 2021 ;04/10/2021; 1 ; - ; 80 ; - ;07/05/2025; - ; - ; (15.296.000); 56.963.000 ; 25.452.500 ; (2.498.500); 41.667.000 
+ 377 ; Kopjaspar Ista Graha Shanti Sudaji ; Desa Sudaji ; Sawan ; 004449/BH/M.KUKM.2/VI/2017 ;15/06/2017; 1 ; - ; 78 ; - ;31/03/2025; 2 ; - ; 92.118.048 ; 493.432 ; 72.953.578 ; 759.128 ; 92.611.480 
+ 378 ; Kopjaspar Tujuh Belas Agustus ; Desa Temukus ; Banjar ; 004450/BH/M.KUKM.2/VI/2017 ;15/06/2017; 1 ; - ; 57 ; - ;01/07/2019; 3 ; - ; 48.638.130 ; 493.432 ; 72.953.578 ; 852.953 ; 49.131.562 
+ 379 ; Kopjaspar Bali Sipapan Sejahtera ; Desa Sembiran ; Tejakula ; 004473/BH/M.KUKM.2/VI/2017 ;16/06/2017; 1 ; - ; 63 ; 1 ;22/01/2026; 5 ; - ; 325.516.458 ; 364.937.150 ; 368.515.499 ; 11.293.720 ; 690.453.608 
+ 380 ; Kopjaspar Amerta Tamba Eling ; Desa Gobleg ; Banjar ; 008327/BH/M.KUKM.2/V/2018 ;08/05/2018; 1 ; - ; 32 ; - ;07/11/2024; - ; 3 ; 72.943.323 ; 38.713.827 ; 15.144.000 ; 568.280 ; 111.657.150 
+ 381 ; Koperasi Jasa Pariwisata Pemandu Bangkit Bersama ; Desa Munduk ; Banjar ; 013605/BH/M.KUKM.2/V/2019 ;29/05/2019; 1 ; - ; 45 ; - ;06/01/2025; - ; - ; 41.748.425 ; - ; 20.000.000 ; 12.037.250 ; 41.748.425 
+ 382 ; Koperasi Jasa Pariwisata Wana Giri Sejahtera ; Desa Wanagiri ; Sukasada ; 014074/BH/M.KUKM.2/VII/2019 ;18/07/2019; 1 ; - ; 32 ; - ;05/04/2023; - ; - ; 37.570.250 ; - ; - ; - ; 37.570.250 
+ 383 ; Kop.Komunitas Pelaku Pedagang Pasar Sejahtera ; Kel. Kaliuntu ; Buleleng ; 003912/BH/M.KUKM.2/IV/2017 ;10/04/2017; 1 ; - ; 98 ; - ;25/03/2023; 1 ; - ; 377.629.452 ; 67.466.496 ; 191.760.000 ; 40.643.830 ; 445.095.948 
+ 384 ; Kop. Konsumen Negara Agung Sedana ; Desa Bungkulan ; Sawan ; 004143/BH/M.KUKM.2/V/2017 ;15/05/2017; 1 ; - ; 118 ; 1 ;17/02/2026; 5 ; 1 ; 493.770.579 ; 522.117.711 ; 382.018.294 ; 57.049.665 ; 1.015.888.290 
+ 385 ; Kop.Kons.Bhumi Sari Dana ; Kel. Baktiseraga ; Buleleng ; 004805/BH/M.KUKM.2/VII/2017 ;25/07/2017; 1 ; - ; 335 ; 1 ;27/03/2026; 2 ; - ; 1.317.487.021 ; 6.352.289.931 ; 1.662.319.988 ; 67.523.251 ; 7.669.776.951 
+ 386 ; Kop. Kons. Sri Waringin janggotan ; Desa Sembiran ; Tejakula ; 005140/BH/M.KUKM.2/IX/2017 ;05/09/2017; 1 ; - ; 60 ; - ;14/4/2022; 3 ; - ; 59.538.390 ; 40.967.810 ; 30.500.000 ; 4.935.300 ; 100.506.200 
+ 387 ; Kop. Kons. Werddhi Dana Jagadhita ; Kel. Kendran ; Buleleng ; 005443/BH/M.KUKM.2/2017 ;29/09/2017; 1 ; - ; 200 ; - ;31/07/2023; - ; - ; 411.010.200 ; 351.507.831 ; 435.947.826 ; 70.556.851 ; 762.518.031 
+ 388 ; Kop. Konsumen Dana Lestari Abadi ; Kel. Paket Agung ; Buleleng ; 009716/BH/M.KUKM.2/IX/2018 ;26/09/2018; 1 ; - ; 26 ; 1 ;30/04/2026; 1 ; - ; 171.223.394 ; 42.360.305 ; 176.822.500 ; 48.413.999 ; 213.583.699 
+ 389 ; Koperasi Konsumen Prema Shanti Seva ; Desa Panji ; Sukasada ; 014755/BH/M.KUKM.2/IX/2019 ;10/09/2019; 1 ; - ; 23 ; - ;17/3/2021; - ; - ; 5.679.316 ; - ; 4.677.500 ; 784.106 ; 64.063.422 
+ 390 ; Koperasi Konsumen Dharma Medika Singaraja ; Kel. Banjar Tegal ; Buleleng ; 014422/BH/M.KUKM.2/VIII/2019 ;14/08/2019; 1 ; - ; 234 ; - ;05/04/2024; 2 ; - ; 261.150.000 ; 15.150.000 ; - ; - ; 371.157.449 
+ 391 ; Koperasi Konsumen Nadhi Rahayu Utama ; Kel. Banjar Jawa ; Buleleng ; 012733/BH/M.KUKM.2/III/2019 ;18/03/2019; 1 ; - ; 44 ; - ;09/02/2024; - ; - ; 61.900.000 ; - ; 16.500.000 ; 12.516.500 ; 61.900.000 
+ 392 ; Koperasi Konsumen Sentana Sukaji Rami ; Desa Les ; Tejakula ; 014073/BH/M.KUKM.2/VII/2019 ;18/07/2019; 1 ; - ; 162 ; 1 ;09/02/2026; - ; - ; 567.564.072 ; 601.330.679 ; 986.150.500 ; 23.484.357 ; 1.168.894.751 
+ 393 ; Koperasi Konsumen Pusaka Niti Mandala ; Desa Pejarakan ; Gerokgak ; AHU-0003975.AH.01.26.TAHUN 2020 ;06/09/2020; 1 ; - ; 334 ; 1 ;11/03/2026; 3 ; - ; 618.367.550 ; 1.252.624.460 ; 633.150.000 ; 5.654.350 ; 1.870.992.010 
+ 394 ; Koperasi Konsumen Dana Prapti Rahayu ; Bondalem ; Tejakula ; AHU-0006412.AH.01.26.TAHUN 2020 ;10/11/2020; 1 ; - ; 196 ; - ;30/3/2024; 2 ; - ; 255.410.627 ; 361.188.821 ; 290.033.500 ; 15.777.000 ; 616.599.448 
+ 395 ; Koperasi Konsumen Mitra Abhinaya Sejahtera ; Panji ; Sukasada ; AHU-0007556.AH.01.26.TAHUN 2020 ;28/12/2020; 1 ; - ; 396 ; 1 ;14/02/2026; 7 ; - ; 195.622.674 ; 1.671.781.340 ; 1.296.520.856 ; 4.615.933 ; 1.867.404.014 
+ 396 ; Koperasi konsumen Duta Kriya Usaha Mandiri ; Julah ; Tejakula ; AHU-0010580.AH.01.26.Tahun 2021 ;04/06/2021; 1 ; - ; 20 ; - ;00/01/1900; 6 ; - ; 55.018.000 ; 178.386.000 ; 178.424.000 ; 3.518.000 ; 233.404.000 
+ 397 ; Koperasi Konsumen Permata Bhuana Nusantara ; Sambangan ; Sukasada ; AHU-0010575.AH.01.26.Tahun 2021 ;04/06/2021; 1 ; - ; 30 ; - ;07/11/2024; 1 ; - ; 63.764.877 ; - ; 29.655.300 ; (33.288.623); 63.764.877 
+ 398 ; Koperasi Konsumen Restu Deria Darmadi ; Anturan ; Buleleng ; AHU-0011505.AH.01.26.TAHUN 2021 ;03/08/2021; 1 ; - ; 25 ; - ;17/09/2024; 1 ; - ; 38.543.323 ; 6.000.000 ; 22.750.333 ; 8.725.666 ; 44.543.323 
+ 399 ; Koperasi Konsumen Margi Abyakta Sejahtera ; Mayong ; Seririt ; AHU-0015547.AH.01.26.TAHUN 2022 ;14/02/2022; 1 ; - ; - ; - ;31/3/2023; - ; - ; - ; - ; - ; - ; - 
+ 400 ; Koperasi Konsumen Maju Bersama Samkara ; Pemaron ; Buleleng ; AHU-0000986.AH.01.29.TAHUN 2022 ;21/04/2022; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 401 ; Koperasi Konsumen Benih Tani Amertha ; Bungkulan ; Sawan ; AHU-0005616.AH.01.29.TAHUN 2022 ;24/10/2022; 1 ; - ; 24 ; - ;03/06/2024; 1 ; - ; 69.540.000 ; - ; 36.476.000 ; 16.340.000 ; 69.540.000 
+ 402 ; Koperasi Konsumen Sidhi Widartha Mahardika ; Bungkulan ; Sawan ; AHU-0006104.AH.01.29.TAHUN 2022 ;16/11/2022; 1 ; - ; 9 ; - ;26/3/2024; - ; - ; 20.406.000 ; - ; 23.073.000 ; 156.000 ; 20.406.000 
+ 403 ; Koperasi Konsumen Cahaya Manik Galih ; Kelurahan Banjar Bali ; Buleleng ; AHU-0000434.AH.01.29.TAHUN 2023 ;30/01/2023; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 404 ; Koperasi Konsumen Bhuana Sari Sejahtera ; Panji ; Sukasada ; AHU-0002786.AH.01.29.TAHUN 2023 ;14/07/2023; 1 ; - ; 262 ; 1 ;24//1/2026; 7 ; - ; 1.113.093.982 ; 2.191.329.108 ; 2.761.226.500 ; 8.060.558 ; 3.304.423.090 
+ 408 ; Kop. Pemasaran Sekar Wangi Sejahtera ; Desa pacung ; Tejakula ; 005462/BH/M.KUKM.2/X/2017 ;02/10/2017; 1 ; - ; 408 ; 1 ;11/04/2026; 6 ; 1 ; 1.291.020.118 ; 2.335.397.627 ; 1.831.887.579 ; 51.966.877 ; 3.626.417.745 
+ 409 ; Kop. Pemasaran Ketapang Sondoh Sejahtera ; Desa. Celukan Bawang ; gerokgak ; 006381/BH/M.KUKM.2/XI/2017 ;29/11/2017; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 410 ; Kop. Pemasaran Dharma Putra Braban ; Desa Kubutambahan ; Kubutambahan ; 006411/BH/M.KUKM.2/XI/2017 ;29/11/2017; 1 ; - ; 42 ; - ;29/04/2020; - ; - ; 66.490.750 ; 6.099.250 ; 36.800.000 ; 1.935.750 ; 72.590.000 
+ 411 ; Koperasi Pemasaran Pangan Bali Utara ; Desa Kubutambahan ; Kubutambahan ; 014753/BH/M.KUKM.2/IX/2019 ;10/09/2019; 1 ; - ; 21 ; - ;02/02/2020; - ; - ; 28.594.350 ; - ; 29.192.100 ; 594.350 ; 28.594.350 
+ 412 ; Koperasi Pemasaran Krama Bali Sejahtera Bali Mula ; Desa Les ; Tejakula ; AHU-0000248.AH.01.26.TAHUN 2019 ;00/01/1900; 1 ; - ; 52 ; - ;31/03/2023; - ; - ; 41.800.000 ; 50.000.000 ; 399.000.000 ; 5.400.000 ; 91.800.000 
+ 413 ; Koperasi Pemasaran Buana Amerta Sari ; Desa Busungbiu ; Busungbiu ; AHU-0001143.AH.01.26. Tahun 2019 ;17/12/2019; 1 ; - ; 25 ; 1 ;20/02/2026; - ; - ; 16.691.880 ; 9.135.620 ; 18.180.000 ; 587.500 ; 25.827.500 
+ 414 ; Koperasi Pemasaran Ekonomi Sadar Lingkungan ; Tukad Mungga ; Buleleng ; AHU-0006161.AH.01.26.TAHUN 2020 ;02/11/2020; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 415 ; Koperasi Pemasaran Teja Amertha Dewata ; Tejakula ; Tejakula ; AHU-0007420.AH.01.26.TAHUN 2020 ;21/12/2020; 1 ; - ; 63 ; - ;29/03/2024; 4 ; - ; 56.111.740 ; 169.213.220 ; 60.963.025 ; 4.596.740 ; 225.324.960 
+ 416 ; Koperasi Pemasaran Mahotama Jaya Lestari ; Les ; Tejakula ; AHU-0015588.AH.01.26.TAHUN 2022 ;15/02/2022; 1 ; - ; - ; - ;22/2/2023; - ; - ; - ; - ; - ; - ; - 
+ 417 ; Koperasi Pemasaran Buleleng Prasada Agrobis ; Kelurahan Seririt ; Seririt ; AHU-0002568.AH.01.29.TAHUN 2023 ;03/07/2023; 1 ; - ; - ; - ;00/01/1900; - ; - ; - ; - ; - ; - ; - 
+ 420 ; PK. Cipta Dana Sejahtera ; Kel. Banyuasri ; Buleleng ; 55/BH/XXVII. 3/XI/2009 ;30/11/2009; 1 ; - ; 24 ; 1 ;25/04/2026; 1 ; - ; 507.171.057 ; 644.180.915 ; 1.067.970.979 ; 4.017.082 ; 1.151.351.972 
+ 421 ; PK. PRI ; Kel. Kaliuntu ; Buleleng ; 70/BH/PAD/KWK 22/III/1997 ;29/03/1997; 1 ; - ; 31 ; 1 ;28/03/2026; 2 ; - ; 3.173.259.216 ; 532.448.086 ; 1.933.459.407 ; 98.746.759 ; 3.705.707.302 
+ 422 ; PKSU. Wisnu ; Kel. Banyuasri ; Buleleng ; 51/BH/PAD/KWK 22/III/1997 ;26/03/1997; 1 ; - ; 6 ; - ;31/05/2025; - ; - ; 475.158.885 ; 71.129.933 ; 29.392.688 ; 12.161.469 ; 546.288.818 
+;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
